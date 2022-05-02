@@ -15,6 +15,7 @@
 package org.eclipse.dataspaceconnector.web.transport;
 
 import jakarta.servlet.Servlet;
+import jakarta.servlet.DispatcherType;
 import org.eclipse.dataspaceconnector.spi.EdcException;
 import org.eclipse.dataspaceconnector.spi.EdcSetting;
 import org.eclipse.dataspaceconnector.spi.monitor.Monitor;
@@ -30,10 +31,14 @@ import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 import org.eclipse.jetty.servlet.Source;
 import org.eclipse.jetty.util.ssl.SslContextFactory;
+import org.eclipse.jetty.servlet.ServletHolder;
+import org.eclipse.jetty.servlet.FilterHolder;
+import org.eclipse.jetty.servlets.CrossOriginFilter;
 
 import java.security.KeyStore;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.EnumSet;
 
 /**
  * Provides HTTP(S) support using Jetty.
@@ -48,6 +53,7 @@ public class JettyService {
     private final KeyStore keyStore;
     private final Map<String, ServletContextHandler> handlers = new HashMap<>();
     private Server server;
+    private FilterHolder corsFilter;
 
     public JettyService(JettyConfiguration configuration, Monitor monitor) {
         this(configuration, null, monitor);
@@ -58,8 +64,18 @@ public class JettyService {
         this.keyStore = keyStore;
         this.monitor = monitor;
         System.setProperty(LOG_ANNOUNCE, "false");
+        corsFilter = new FilterHolder();
+        corsFilter.setInitParameter("allowedOrigins", "*");
+        corsFilter.setInitParameter("allowedMethods", "GET,POST,HEAD");
+        corsFilter.setInitParameter("allowedHeaders", "*");
+        corsFilter.setInitParameter("preflightMaxAge", "728000");
+        corsFilter.setInitParameter("allowCredentials", "true");
+        CrossOriginFilter realFilter = new CrossOriginFilter();
+        corsFilter.setFilter(realFilter);
         ServletContextHandler handler = new ServletContextHandler(ServletContextHandler.NO_SESSIONS);
         handler.setContextPath("/");
+        monitor.info("Establising CORS filter "+corsFilter+" for handler " + handler);
+        handler.addFilter(corsFilter,"/*",EnumSet.allOf(DispatcherType.class));
         handlers.put("/", handler);
     }
 
@@ -91,10 +107,12 @@ public class JettyService {
                 monitor.info("HTTP listening on " + port);
             }
 
+
             server.setErrorHandler(new JettyErrorHandler());
             ContextHandlerCollection contexts = new ContextHandlerCollection();
             contexts.setHandlers(handlers.values().toArray(new Handler[0]));
             server.setHandler(contexts);
+
 
             server.start();
         } catch (Exception e) {
@@ -130,6 +148,8 @@ public class JettyService {
     }
 
     public void registerHandler(ServletContextHandler handler) {
+        monitor.info("Establising CORS filter "+corsFilter+" for handler " + handler);
+        handler.addFilter(corsFilter,"/*",EnumSet.allOf(DispatcherType.class));
         handlers.put(handler.getContextPath(), handler);
     }
 
@@ -137,6 +157,8 @@ public class JettyService {
         return handlers.computeIfAbsent(contextPath, k -> {
             ServletContextHandler handler = new ServletContextHandler(ServletContextHandler.NO_SESSIONS);
             handler.setContextPath(contextPath);
+            monitor.info("Establising CORS filter "+corsFilter+" for handler " + handler);
+            handler.addFilter(corsFilter,"/*",EnumSet.allOf(DispatcherType.class));
             return handler;
         });
     }

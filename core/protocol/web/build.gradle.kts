@@ -29,6 +29,8 @@ dependencies {
         exclude("jetty-xml")
     }
 
+    implementation("org.eclipse.jetty:jetty-servlets:${jettyVersion}")
+
     implementation("org.glassfish.jersey.core:jersey-server:${jerseyVersion}")
     implementation("org.glassfish.jersey.containers:jersey-container-servlet-core:${jerseyVersion}")
     implementation("org.glassfish.jersey.core:jersey-common:${jerseyVersion}")
