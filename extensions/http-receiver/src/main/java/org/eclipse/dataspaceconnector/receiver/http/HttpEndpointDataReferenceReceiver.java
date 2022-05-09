@@ -54,21 +54,37 @@ public class HttpEndpointDataReferenceReceiver implements EndpointDataReferenceR
 
     @Override
     public CompletableFuture<Result<Void>> send(@NotNull EndpointDataReference edr) {
-        var requestBody = RequestBody.create(typeManager.writeValueAsString(edr), JSON);
-        var requestBuilder = new Request.Builder().url(endpoint).post(requestBody);
-        if (!isNullOrBlank(authKey) && !isNullOrBlank(authToken)) {
-            requestBuilder.header(authKey, authToken);
-        }
-        try (var response = with(retryPolicy).get(() -> httpClient.newCall(requestBuilder.build()).execute())) {
-            if (response.isSuccessful()) {
-                var body = response.body();
-                if (body == null) {
-                    throw new EdcException(String.format("Received empty response body when receiving endpoint data reference with id: %s", edr.getCorrelationId()));
-                }
-                return CompletableFuture.completedFuture(Result.success());
-            } else {
-                throw new EdcException(String.format("Received error code %s when transferring endpoint data reference with id: %s", response.code(), edr.getCorrelationId()));
+        String payload = typeManager.writeValueAsString(edr);
+        monitor.debug(String.format("About to send endpoint data reference to %s (%s,%s) - %s", endpoint, authKey, authToken, payload));
+        var requestBody = RequestBody.create(payload, JSON);
+        String[] endpoints = endpoint.split(",");
+        boolean success = false;
+        String reason = "Endpoint could not be contacted.";
+        for (String endpoint : endpoints) {
+            var requestBuilder = new Request.Builder().url(endpoint).post(requestBody);
+            if (!isNullOrBlank(authKey) && !isNullOrBlank(authToken)) {
+                requestBuilder.header(authKey, authToken);
             }
+            try (var response = with(retryPolicy).get(() -> httpClient.newCall(requestBuilder.build()).execute())) {
+                if (response.isSuccessful()) {
+                    var body = response.body();
+                    if (body == null) {
+                        reason = String.format("Received empty response body when receiving endpoint data reference with id: %s", edr.getCorrelationId());
+                        monitor.warning(reason);
+                    } else {
+                        monitor.info(String.format("Successfully contacted endpoint %s", endpoint));
+                        success = true;
+                    }
+                } else {
+                    reason = String.format("Received error code %s when transferring endpoint data reference with id: %s", response.code(), edr.getCorrelationId());
+                    monitor.warning(reason);
+                }
+            }
+        }
+        if (success) {
+            return CompletableFuture.completedFuture(Result.success());
+        } else {
+            throw new EdcException(reason);
         }
     }
 
