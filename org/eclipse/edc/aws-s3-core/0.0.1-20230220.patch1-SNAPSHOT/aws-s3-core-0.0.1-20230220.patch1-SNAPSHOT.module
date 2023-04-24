@@ -1,0 +1,258 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "aws-s3-core",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "dev.failsafe",
+          "module": "failsafe",
+          "version": {
+            "requires": "3.2.4"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "iam",
+          "version": {
+            "requires": "2.19.26"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "s3",
+          "version": {
+            "requires": "2.19.26"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "sts",
+          "version": {
+            "requires": "2.19.26"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aws-s3-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "aws-s3-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 27195,
+          "sha512": "736538c5a00a4dab9aed384b9d420115a197d1f8665b3ed9bbb38aabedcdfaf5bed02b12893ed1d0146857af9625327f9205a8b18e544e4fefafae321decbfe0",
+          "sha256": "770989134791ba058c9fb4cba5e2f8b2a2bac03ee468a863b60bd861d7011026",
+          "sha1": "fa4df07632f4fa4d507036bfd2582128aca16842",
+          "md5": "31b4f1ebd68844de6184d6385ed5f28a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "dev.failsafe",
+          "module": "failsafe",
+          "version": {
+            "requires": "3.2.4"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "iam",
+          "version": {
+            "requires": "2.19.26"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "s3",
+          "version": {
+            "requires": "2.19.26"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "sts",
+          "version": {
+            "requires": "2.19.26"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aws-s3-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "aws-s3-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 27195,
+          "sha512": "736538c5a00a4dab9aed384b9d420115a197d1f8665b3ed9bbb38aabedcdfaf5bed02b12893ed1d0146857af9625327f9205a8b18e544e4fefafae321decbfe0",
+          "sha256": "770989134791ba058c9fb4cba5e2f8b2a2bac03ee468a863b60bd861d7011026",
+          "sha1": "fa4df07632f4fa4d507036bfd2582128aca16842",
+          "md5": "31b4f1ebd68844de6184d6385ed5f28a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aws-s3-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "aws-s3-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "9fd033befd0782b10c605705d272f398476a22e63584f49e2623698263660c9a71696e993eb75f423ce35db5be9df52f067c6e04cf0a9e935c02ff5b543c4355",
+          "sha256": "8acab98fbcf9ad8cd2514562200e85aed2af0ac025704f2dbc374b27e89d1c07",
+          "sha1": "d762b446c8bbb7e095cfdf68c9a93d987f761ce3",
+          "md5": "4d98bed19125f884eee1ce69d8a638ea"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aws-s3-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "aws-s3-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 8260,
+          "sha512": "eed34d993c479384ecd7311c05582cdc7ff2ca7ce11ccd3e939901af78e8d5244239a3d9c9823dd1d6859c22233d656eaa7d9d11f77ea1ca73c40b5604dcf878",
+          "sha256": "03068031e323dac3cccd9daa8f84954e57a4fb164b875bc7f2e9533234c4c13c",
+          "sha1": "a85fd24ef53c6c200422bf3a5a3d93cf2436dd6d",
+          "md5": "3ede8493e3130f9486879ee8b54ead1e"
+        }
+      ]
+    }
+  ]
+}

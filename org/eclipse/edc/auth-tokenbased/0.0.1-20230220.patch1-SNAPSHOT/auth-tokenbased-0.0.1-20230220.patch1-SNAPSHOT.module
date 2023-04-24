@@ -1,0 +1,209 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "auth-tokenbased",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "auth-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-tokenbased-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "auth-tokenbased-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 19727,
+          "sha512": "916560e7cc6cc80a84447828ac21859a4239446b42194c8462d16b8aa091555f7604c9c3db97b2cc8a938fe38885736d0dabcf1a227fbb21b2595d02f4c6aa58",
+          "sha256": "fa546714155596405612cf3681d88d766113f55f87bd7670fa066cd09ba40316",
+          "sha1": "5301fce6084c31d0d3bdb604a4423218409511fe",
+          "md5": "595add3c158a0b548330d39265088707"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "auth-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-tokenbased-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "auth-tokenbased-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 19727,
+          "sha512": "916560e7cc6cc80a84447828ac21859a4239446b42194c8462d16b8aa091555f7604c9c3db97b2cc8a938fe38885736d0dabcf1a227fbb21b2595d02f4c6aa58",
+          "sha256": "fa546714155596405612cf3681d88d766113f55f87bd7670fa066cd09ba40316",
+          "sha1": "5301fce6084c31d0d3bdb604a4423218409511fe",
+          "md5": "595add3c158a0b548330d39265088707"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "auth-tokenbased-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "auth-tokenbased-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "9876b704cbce577bfbdd9c557a636700e33a5d42c9101e00da200b48e232742622be0f1431cbddfbd7308415a02e53c2b8ae193f589248db40185d828a540c17",
+          "sha256": "2be8a76ff52eecb9b1b96637fdcdd10e8073253886667e30ec50a27c1d43ad69",
+          "sha1": "474d81ea1b812c58d2b1d098f93374a36ed194ab",
+          "md5": "abfb4ae5763d48178d600d6d7fae86b9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "auth-tokenbased-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "auth-tokenbased-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 3668,
+          "sha512": "bc7f219dffdb2df01c69dfa8fa42072470790746a07e9c644d00949ac4a57ce2c4ebddf1e7e06feba921ba466c9e2089428215890304312ed0af25df8bd238e3",
+          "sha256": "039e0b640236b518ddcdf68ad70dc8a6071fd751d0d56c6684f28cd5d4f0f9bd",
+          "sha1": "ebed6870986327cc877666d361a45c5f90b31e37",
+          "md5": "34ec102dec5bbc51008b108294c87209"
+        }
+      ]
+    }
+  ]
+}

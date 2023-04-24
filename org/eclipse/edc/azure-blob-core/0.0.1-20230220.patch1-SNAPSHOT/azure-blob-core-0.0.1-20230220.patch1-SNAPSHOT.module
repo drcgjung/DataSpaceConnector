@@ -1,0 +1,318 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "azure-blob-core",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "control-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure-blob-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "azure-blob-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 26887,
+          "sha512": "a9a1546ae04679985c19a45bcd361bd42563cfbbd81820074570b49f01eb2bf8974587d71257a399b1d9e0c2eec74a5ba9b28f5b6240dc4a8d347aeebc606371",
+          "sha256": "97c01ad986d44b045abff4c374276de53773843454634c2760e53a7ced46298c",
+          "sha1": "e059a9ad1edcab6051880125a8b865a2876634b4",
+          "md5": "222ff14d352b0d064fedcb330458e3f5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.azure",
+          "module": "azure-storage-blob",
+          "version": {
+            "requires": "12.19.1"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "control-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure-blob-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "azure-blob-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 26887,
+          "sha512": "a9a1546ae04679985c19a45bcd361bd42563cfbbd81820074570b49f01eb2bf8974587d71257a399b1d9e0c2eec74a5ba9b28f5b6240dc4a8d347aeebc606371",
+          "sha256": "97c01ad986d44b045abff4c374276de53773843454634c2760e53a7ced46298c",
+          "sha1": "e059a9ad1edcab6051880125a8b865a2876634b4",
+          "md5": "222ff14d352b0d064fedcb330458e3f5"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-blob-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure-blob-core-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "url": "azure-blob-core-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "size": 2294,
+          "sha512": "022868c7b13bbe91ceb0b892e19a91c109d905dd067aa04628aeaf405085c89e5d9e1d0934d66034d1d21766841e239035e0ca1095cab07b33e2a021f8afc490",
+          "sha256": "71e69e938f94c7135ca86090055831d9f3ea6b853d8b9021075e40d6c2d17bf1",
+          "sha1": "e7099140fb1428d06879b92fc809a74b500b81b8",
+          "md5": "f341fe69150fc6df5e8bbbd63ad2de24"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.eclipse.edc",
+          "name": "azure-blob-core-test-fixtures",
+          "version": "0.0.1-20230220.patch1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.8.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-blob-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-engine",
+          "version": {
+            "requires": "5.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure-blob-core-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "url": "azure-blob-core-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "size": 2294,
+          "sha512": "022868c7b13bbe91ceb0b892e19a91c109d905dd067aa04628aeaf405085c89e5d9e1d0934d66034d1d21766841e239035e0ca1095cab07b33e2a021f8afc490",
+          "sha256": "71e69e938f94c7135ca86090055831d9f3ea6b853d8b9021075e40d6c2d17bf1",
+          "sha1": "e7099140fb1428d06879b92fc809a74b500b81b8",
+          "md5": "f341fe69150fc6df5e8bbbd63ad2de24"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.eclipse.edc",
+          "name": "azure-blob-core-test-fixtures",
+          "version": "0.0.1-20230220.patch1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "azure-blob-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "azure-blob-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "5cbac11b493442c630d390f7eba4e765da1525ecf25f4e44e1da53555a02712c65786a6289710d5ff3e9ac454c7e7bc58b1a92ad0724a58ef00c7f0465bfde8c",
+          "sha256": "0001c53302ce00a23ed0653d60df6f421599ac7c92ae63c0ce8b95c8dde52ab9",
+          "sha1": "ed881cf9c067d4e2748a2e4bfa0f2e65665df35b",
+          "md5": "13cec04ecf948db34d8fbf22613b445c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "azure-blob-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "azure-blob-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 9805,
+          "sha512": "8ee7f233ce0b42be3fee9f98d489675b114ebeb0f5d89caabbb9d835be5bd0541cbebeb44f95aca7a9e8808e5aeb4183f88f270670e75a12f4a10f8ce42cb97c",
+          "sha256": "0ab9710e957e4db34428c047151025302347fde51ae3fcb68284e29f9fc0e444",
+          "sha1": "e4806d98c82310b4a973d50f7e0013dd30104c40",
+          "md5": "8918b49f64bd2c5da7841b7cf9c2fbc1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "api-core",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "auth-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "aggregate-service-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transform-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "web-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "api-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 32175,
+          "sha512": "3907643343ea5b830a5375705dfe349c7793639801d3cff84d4992fce8735bb5bbc97fc2df0e0a9ecd27ef0291fe9e43f7ad99ac4db0cf283067cecbd7012c9f",
+          "sha256": "50d8f7a6760f292860447452af6df3e6b8b53582b9e6dee011500af007c486c9",
+          "sha1": "12b471583b323c5a04febd8e4c1b5a5417e1097c",
+          "md5": "cf022408a189689721e09ee4e3bbae48"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "jakarta.validation",
+          "module": "jakarta.validation-api",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.ext",
+          "module": "jersey-bean-validation",
+          "version": {
+            "requires": "3.0.8"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "auth-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "aggregate-service-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transform-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "web-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "api-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 32175,
+          "sha512": "3907643343ea5b830a5375705dfe349c7793639801d3cff84d4992fce8735bb5bbc97fc2df0e0a9ecd27ef0291fe9e43f7ad99ac4db0cf283067cecbd7012c9f",
+          "sha256": "50d8f7a6760f292860447452af6df3e6b8b53582b9e6dee011500af007c486c9",
+          "sha1": "12b471583b323c5a04febd8e4c1b5a5417e1097c",
+          "md5": "cf022408a189689721e09ee4e3bbae48"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "api-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "api-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "5687805c2ec34eb1a640d029bf4f801466893168de91a1ce438cb0b0f162818e1c88fe54b396ded1aced72a24615e4527a5cd1058457150d95087118c7bca642",
+          "sha256": "7e255afba6985c477fd6168398d844029507d83b30f6f77f4c268e0f08fecba2",
+          "sha1": "2b81c11a13e2486f828b5444587ffa18592644ef",
+          "md5": "49d6f6b0689c3b1ba305174a33b24f2b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "api-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "api-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 12058,
+          "sha512": "f7993f9711094c4e576c47931d96848424f70c995dbcbd9e10d1142c06374852126d8a025f307c7a9093c6bd7c941df3a22c6aea0db9cf31ef107c843528f148",
+          "sha256": "6b4815ac53f10eb7ab92d14c01ee239f4014637f2e8a43e0d28c0c1cac1db77f",
+          "sha1": "2ae9023931d8d8d3373d6a28106cd8e00caad9e0",
+          "md5": "d5ee9c3f9272ac68eb854846c17fe4e3"
+        }
+      ]
+    }
+  ]
+}

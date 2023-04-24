@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "autodoc-processor",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.0.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autodoc-processor-0.0.1-SNAPSHOT.jar",
+          "url": "autodoc-processor-0.0.1-SNAPSHOT.jar",
+          "size": 36302,
+          "sha512": "695c9ca0c56213a4d0a70778d760426424142435b62c4193a15caa9016a9ad3b9c1a6bf3ff57eb7da6f774adeaca0ecf38a398b63642c575a239eea8863299aa",
+          "sha256": "1afa60af4f70dbfaebf6c5cec74f7030703b44844f8ee7cefe39f7b590021946",
+          "sha1": "c8460aa6095af26f309ce677a35c9665d5dc1f9d",
+          "md5": "f65b14aeb211f82ac5b82c0ba512f468"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.0.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autodoc-processor-0.0.1-SNAPSHOT.jar",
+          "url": "autodoc-processor-0.0.1-SNAPSHOT.jar",
+          "size": 36302,
+          "sha512": "695c9ca0c56213a4d0a70778d760426424142435b62c4193a15caa9016a9ad3b9c1a6bf3ff57eb7da6f774adeaca0ecf38a398b63642c575a239eea8863299aa",
+          "sha256": "1afa60af4f70dbfaebf6c5cec74f7030703b44844f8ee7cefe39f7b590021946",
+          "sha1": "c8460aa6095af26f309ce677a35c9665d5dc1f9d",
+          "md5": "f65b14aeb211f82ac5b82c0ba512f468"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "autodoc-processor-0.0.1-SNAPSHOT-javadoc.jar",
+          "url": "autodoc-processor-0.0.1-SNAPSHOT-javadoc.jar",
+          "size": 323027,
+          "sha512": "f46ed3d4ae1a49027ec305b29670fc38fcd60ddf83ec90215d54f57088344ed2560939e055c85ee2f9053a60b01634dcf11ee3d61c59d202b8fa992e1ab934b1",
+          "sha256": "b1a08a024a0a577cd1abda11ed0ead8a295d8acf1dad86342bfd6d7d07a816ca",
+          "sha1": "19946f48d7ac6a7d2a1a44ab83328bd1c7a5983a",
+          "md5": "29b1277e53e8492a756a6019fd13b48e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "autodoc-processor-0.0.1-SNAPSHOT-sources.jar",
+          "url": "autodoc-processor-0.0.1-SNAPSHOT-sources.jar",
+          "size": 23371,
+          "sha512": "a7058f5512dfcee4992322d1519ac9a64f1f4b19d2f0f2ba2405436c32fa4e2b237e0549739891b5e2ecdce5485685fbfecd8354aea40818d0b67a5c803035cb",
+          "sha256": "605d9ab7676755cb16ca680c9a514bab793d0a88b858a25a1c22581d214f418d",
+          "sha1": "cc3d53a06635f94a24000f79a62a9541862e9f1a",
+          "md5": "2a3dfa1bebc1d57c0caef7596b88dcf8"
+        }
+      ]
+    }
+  ]
+}

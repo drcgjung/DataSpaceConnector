@@ -1,0 +1,1 @@
+[{"categories":[""],"extensions":[],"extensionPoints":[{"service":"org.eclipse.edc.api.auth.spi.AuthenticationService"}],"modulePath":"org.eclipse.edc:auth-spi","version":"0.0.1-20230220.patch1-SNAPSHOT","name":"Auth services"}]

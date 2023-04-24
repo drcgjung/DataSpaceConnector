@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "azure-resource-manager",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure-resource-manager-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "azure-resource-manager-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 18105,
+          "sha512": "ed5d4c8ac1f6277b9eb39cae03e709a649ac221d5b7388cb5d08e4b33fd4483f4cdf2c7b76355fe895b3f0cf739cb7b6656dbe5f29810a0c32ae6eac149fd6b3",
+          "sha256": "e4558116b442888464a33db59ee2e44a664203308fd22bdcbc904cef1e43f42b",
+          "sha1": "4cf28feec4ec6671958880db19a39cace01283b3",
+          "md5": "d0f406e577a573a380e094d636b626e0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-blob-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.azure",
+          "module": "azure-identity",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.azure.resourcemanager",
+          "module": "azure-resourcemanager",
+          "version": {
+            "requires": "2.12.0"
+          }
+        },
+        {
+          "group": "com.azure.resourcemanager",
+          "module": "azure-resourcemanager-authorization",
+          "version": {
+            "requires": "2.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure-resource-manager-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "azure-resource-manager-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 18105,
+          "sha512": "ed5d4c8ac1f6277b9eb39cae03e709a649ac221d5b7388cb5d08e4b33fd4483f4cdf2c7b76355fe895b3f0cf739cb7b6656dbe5f29810a0c32ae6eac149fd6b3",
+          "sha256": "e4558116b442888464a33db59ee2e44a664203308fd22bdcbc904cef1e43f42b",
+          "sha1": "4cf28feec4ec6671958880db19a39cace01283b3",
+          "md5": "d0f406e577a573a380e094d636b626e0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "azure-resource-manager-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "azure-resource-manager-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "e8b4c2843876b1fd1b5e2117fcbf2b90f03107a0e522ed92058b4d6c692cb85f45e7808b82a56207c848769c50ea3d7f50b728e0a56280764f29cedc10d82e6e",
+          "sha256": "7da324c21cff820e9c4b3a0d187c7fffb5dc43c512631b6a97d8dc7ead3247d2",
+          "sha1": "89dc9b6039b8ef33cd5abad04e0a622300aabcaf",
+          "md5": "943d082fba83f326f09145dc8e7cb2a6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "azure-resource-manager-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "azure-resource-manager-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 2554,
+          "sha512": "15beff6fe72d1f846b8a0913cee466d6556bb12a786eb192a9215e2ae01fa20519b7d32c93bb1fc4f979e0becd7c9e1637625634ed3705bf2e7a97dc82cf89c5",
+          "sha256": "d54a81d360ccebbccee5c8bd0ebb7625defc76e618daa2ef20c3e5d46a4f6fad",
+          "sha1": "4c100c279e9b02566ee1c48f184e4710dc910b46",
+          "md5": "1c59f7ddabc11671301ab4dd6a87911b"
+        }
+      ]
+    }
+  ]
+}

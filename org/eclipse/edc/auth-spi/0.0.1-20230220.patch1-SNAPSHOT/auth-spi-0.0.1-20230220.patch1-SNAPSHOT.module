@@ -1,0 +1,209 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "auth-spi",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "web-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "auth-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 18974,
+          "sha512": "60870c0692edb6cdabe2f2d15067eca5fef4dbdc3853797e34d3de7009105d347fcf5051854bfe1a21fd79a9ed06c61a1034273043df2aca17f55c2d824d48b1",
+          "sha256": "883666993301392292ae28bf243f40bc9f096edb415bb1478a889109fe94f390",
+          "sha1": "92e30797cee50c03167f4309a2cd2109daa8c004",
+          "md5": "9a6e1d80398161258340c3f7b5a12fc1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "web-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "auth-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 18974,
+          "sha512": "60870c0692edb6cdabe2f2d15067eca5fef4dbdc3853797e34d3de7009105d347fcf5051854bfe1a21fd79a9ed06c61a1034273043df2aca17f55c2d824d48b1",
+          "sha256": "883666993301392292ae28bf243f40bc9f096edb415bb1478a889109fe94f390",
+          "sha1": "92e30797cee50c03167f4309a2cd2109daa8c004",
+          "md5": "9a6e1d80398161258340c3f7b5a12fc1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "auth-spi-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "auth-spi-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 288952,
+          "sha512": "efae5de9052208a904904570493642dadce5547d72a644f2d0308d2fc3d3a9cc5708f43773fa08bd3edaac352872b666596dd8f1d95368ffc8685e0214e2d0af",
+          "sha256": "100ffe397244e3a96c4ff3753d073adad8f4b869f4ac08712434812c83738d6c",
+          "sha1": "0c8db89747de3e5fa0fb057bb64b5db2a66dac06",
+          "md5": "111dde291a2eb1afb77ba2f34aabf7d4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "auth-spi-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "auth-spi-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 3808,
+          "sha512": "e57f4b3fd5195c3a9b869f075347d9a758920ebea34912da3a694c2274c7ebb54ef7d80c3478a007a8300517bda500da074691dc173f15151058266e41b37090",
+          "sha256": "a020f019bdbb92a485e16df7caa1f8a285659770354e71eeb6da985ad03b395c",
+          "sha1": "6c83bd5580e8db5ec3758be8ffe4e63b5d9066e1",
+          "md5": "8ec423c905aa3573cfc259283957253d"
+        }
+      ]
+    }
+  ]
+}

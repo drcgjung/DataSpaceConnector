@@ -1,0 +1,318 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "azure-cosmos-core",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure-cosmos-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "azure-cosmos-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 52405,
+          "sha512": "f84991ddf6ae3a3c5cb92615c0735831f5c6947d4bcb0fae23761ed8f674fe3e2a44e3a0f470ad390aac4576b3d32fac4a4ada28ee479f54ab70f7dffa597034",
+          "sha256": "49776d1d40170e4ec61279bd76f323adb4d9a296e0790ec118e1db0413407a7c",
+          "sha1": "afff6e128f7baef141a218a7873d69c0390cb199",
+          "md5": "0d8db052284a632f88fd122bc664dc7a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.azure",
+          "module": "azure-cosmos",
+          "version": {
+            "requires": "4.37.0"
+          }
+        },
+        {
+          "group": "dev.failsafe",
+          "module": "failsafe",
+          "version": {
+            "requires": "3.2.4"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure-cosmos-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "azure-cosmos-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 52405,
+          "sha512": "f84991ddf6ae3a3c5cb92615c0735831f5c6947d4bcb0fae23761ed8f674fe3e2a44e3a0f470ad390aac4576b3d32fac4a4ada28ee479f54ab70f7dffa597034",
+          "sha256": "49776d1d40170e4ec61279bd76f323adb4d9a296e0790ec118e1db0413407a7c",
+          "sha1": "afff6e128f7baef141a218a7873d69c0390cb199",
+          "md5": "0d8db052284a632f88fd122bc664dc7a"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-cosmos-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure-cosmos-core-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "url": "azure-cosmos-core-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "size": 261,
+          "sha512": "57237aed6e344abd6668fcaabc89f7160e13eaf62721c21ff5536ed51f5d16f37435103654f111b60128899c9bbb4ef6cd43c31d08cb916a93f1b51969d26aa7",
+          "sha256": "96afb312edec443c6bf1b3f4db692465c0a54d4b2444ac3024de0f97ebcae8c5",
+          "sha1": "6b231b9e748ff590e5bffee2775fa57b56e68ccf",
+          "md5": "694d286489b3e3b6bd9ed9c6ae2ce1eb"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.eclipse.edc",
+          "name": "azure-cosmos-core-test-fixtures",
+          "version": "0.0.1-20230220.patch1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.azure",
+          "module": "azure-cosmos",
+          "version": {
+            "requires": "4.37.0"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-cosmos-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure-cosmos-core-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "url": "azure-cosmos-core-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "size": 261,
+          "sha512": "57237aed6e344abd6668fcaabc89f7160e13eaf62721c21ff5536ed51f5d16f37435103654f111b60128899c9bbb4ef6cd43c31d08cb916a93f1b51969d26aa7",
+          "sha256": "96afb312edec443c6bf1b3f4db692465c0a54d4b2444ac3024de0f97ebcae8c5",
+          "sha1": "6b231b9e748ff590e5bffee2775fa57b56e68ccf",
+          "md5": "694d286489b3e3b6bd9ed9c6ae2ce1eb"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.eclipse.edc",
+          "name": "azure-cosmos-core-test-fixtures",
+          "version": "0.0.1-20230220.patch1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "azure-cosmos-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "azure-cosmos-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "54d152ff68979c5d3a3151b17b44f4609f681b3e5421356f8cdf721d07142c204efc511b866623a0984b35925b80adc9d6eea7e498bfc61fbe2ed288d61c6de7",
+          "sha256": "a5ba2f509cd85c84603645a9afefd48fc79d46514db649fc27bce32efe98eacb",
+          "sha1": "897a8550a672358015ee91d35d355975e32dd147",
+          "md5": "d467304a544a625072a60d9611ea5614"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "azure-cosmos-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "azure-cosmos-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 29234,
+          "sha512": "72932e4f11fca6ffd34e1f344a858530851319f6048927423e37db0c1a5b0fcaf022324811ee57e430f9dd1b84ef698d5eb9791909892279083790d58d87201e",
+          "sha256": "bd00e80cc802024cc52ae71294ded6acfc5176a164759fd41d65b5a9362567dc",
+          "sha1": "dcf4f97bb2295975793ca21bc65f8cb803635050",
+          "md5": "d705cdf78080276ee1fec51c4b773105"
+        }
+      ]
+    }
+  ]
+}

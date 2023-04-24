@@ -1,0 +1,223 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "auth-basic",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "auth-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-basic-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "auth-basic-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 23083,
+          "sha512": "9a9ceddf244a7a9f7e5a94de9e710fe938fbcf5d75b44a84af9fb37505be0f733704256430faff02c92b516cae15168767e08ef535bcc4bd1357282b5206a43c",
+          "sha256": "91acf2a5e1bc56d0d58853ff0805bcaa74bb3c35845d87aff73208a07c84a45f",
+          "sha1": "98a472db126b7f25b07f99f6099f2da055d0b3d4",
+          "md5": "54271071db4082708bd9377407aa7b79"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "auth-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-basic-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "auth-basic-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 23083,
+          "sha512": "9a9ceddf244a7a9f7e5a94de9e710fe938fbcf5d75b44a84af9fb37505be0f733704256430faff02c92b516cae15168767e08ef535bcc4bd1357282b5206a43c",
+          "sha256": "91acf2a5e1bc56d0d58853ff0805bcaa74bb3c35845d87aff73208a07c84a45f",
+          "sha1": "98a472db126b7f25b07f99f6099f2da055d0b3d4",
+          "md5": "54271071db4082708bd9377407aa7b79"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "auth-basic-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "auth-basic-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "79999c20894cde4a8841a78ccd1ca5c8f063200961ad4c823795c15b258da74a1257a818374902c5ee59dbb7463a5434e7ffa3204fdea2b7fc4dedaf63c61737",
+          "sha256": "a69c7c0ad1ca1ed8bcc1b3e529eaa622c590fcf9c715343f9272a7e3fa7d1675",
+          "sha1": "b16890d39a7f0205ad9214015c8376c1eb6c26c3",
+          "md5": "5154ed080d40484c0caa0b9d086753e0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "auth-basic-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "auth-basic-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 4412,
+          "sha512": "61e449affcee5260393247eac69f73d72960789ccdbd7ab081bc5e83d6b1a14ca1a57d2aab53a1610a99fbb75467a5b015b635d8796a0c5a3ab0ed0f22b14589",
+          "sha256": "c4c42e884be56876725894883722456902dd823f10f73fb28596a15a9fdf4259",
+          "sha1": "fea1cc00f696333ae264b91f05489288422a42c8",
+          "md5": "b741b0f9d434636baab6271ce3c2be30"
+        }
+      ]
+    }
+  ]
+}

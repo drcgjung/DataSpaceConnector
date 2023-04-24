@@ -1,0 +1,351 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "asset-api",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "control-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "asset-api-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "asset-api-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 37057,
+          "sha512": "4394923f7ff2bd9aaec000ac8c01b530ffef383092fb87aee2b3df8baf1663d5cf8a5381d50cdc155ba395600d4db889135c4cde56a1fb1e0524801db3280f56",
+          "sha256": "eb37253310dea37a78e5e5df9e901905ae32a32a5c794bd7676f1ef238d079c5",
+          "sha1": "34448eb9e3fd48df3e299b3bdc7714f3ed977b3f",
+          "md5": "c4749c2f065588c6698f78108df1779f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "api-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "management-api-configuration",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.1.0"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-jaxrs2-jakarta",
+          "version": {
+            "requires": "2.2.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.1.0"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "control-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "asset-api-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "asset-api-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 37057,
+          "sha512": "4394923f7ff2bd9aaec000ac8c01b530ffef383092fb87aee2b3df8baf1663d5cf8a5381d50cdc155ba395600d4db889135c4cde56a1fb1e0524801db3280f56",
+          "sha256": "eb37253310dea37a78e5e5df9e901905ae32a32a5c794bd7676f1ef238d079c5",
+          "sha1": "34448eb9e3fd48df3e299b3bdc7714f3ed977b3f",
+          "md5": "c4749c2f065588c6698f78108df1779f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asset-api-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "asset-api-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "81ebe10d5746c339fa21d1fba5962ad2f716123ff93aa54915f345e8ddf47e35172d12f0f4916c96093df8e72ba5be7db965b8911eef16a124939b6c2b488bd5",
+          "sha256": "2e560ae81d1edd32f89d008aaba880243ef56a79f912904aca97b32dd10442f1",
+          "sha1": "a7698e03aa298e229c9ae93a14a55ec43cb62cb3",
+          "md5": "51b61eb6b4aa20cca7545132d4635a9d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asset-api-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "asset-api-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 13809,
+          "sha512": "3492c2b5341fc58fe7991e4f2923e1834aebdbd4f32513477a2d17ee5c60dc8734a29b48a75540fbadedf3b94deaf6cd2aae782c1b1688fe898bb0f9236d7c7d",
+          "sha256": "dd926e459f1b57a67a2e3f0f2cdeaf74d5a65ac3a7980bf0c75ab1b987c6a4ec",
+          "sha1": "9c3f6e902db06b1c21a82e81a921f33b5e6476f9",
+          "md5": "d650ca14091bf9644d641b12ba487d2c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "azure-eventgrid",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "control-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure-eventgrid-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "azure-eventgrid-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 25081,
+          "sha512": "13a2aabf0ecae6999dfcfb24669beae2585b8de2d28bd987170b48dd2aaef9f68e3865062bf1bb4ec1719f4ae75bd948669c1c46682fef3dbdd7a8e61158fe24",
+          "sha256": "aeead52a4c12e936447c7b208468d3b7120d972c31da3ae9519a3b5b24195493",
+          "sha1": "13a7b8304d7a248b79f6e52c08aae5d0461ffd35",
+          "md5": "c46272623e5a69a5a8129fda137def5e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.azure",
+          "module": "azure-messaging-eventgrid",
+          "version": {
+            "requires": "4.12.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "control-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "azure-eventgrid-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "azure-eventgrid-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 25081,
+          "sha512": "13a2aabf0ecae6999dfcfb24669beae2585b8de2d28bd987170b48dd2aaef9f68e3865062bf1bb4ec1719f4ae75bd948669c1c46682fef3dbdd7a8e61158fe24",
+          "sha256": "aeead52a4c12e936447c7b208468d3b7120d972c31da3ae9519a3b5b24195493",
+          "sha1": "13a7b8304d7a248b79f6e52c08aae5d0461ffd35",
+          "md5": "c46272623e5a69a5a8129fda137def5e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "azure-eventgrid-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "azure-eventgrid-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "f1eb6db5b3f8ede948bb96820bf8c632330bc55d644b29a40a8bdd99f19d5171940d85aea330c25bb3cb3ed3173fe10926a9eb51b53d712984d619ff0f69e00f",
+          "sha256": "d9c828669f395af2c1c0a17f04b35e87a5f56e547cdf840f6d66c1a15d2e59d8",
+          "sha1": "599930d4e087ac8c52b4a4a46d8008b323aac8d8",
+          "md5": "3df41bb2784891406a419f5e8a3e8970"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "azure-eventgrid-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "azure-eventgrid-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 6389,
+          "sha512": "68a79b177daec19b9de9022535055e680abb0974179c51cef2d72d599c6743c0a1e7d512847e1cf6b3e03740d08342d9f869cc6c2312077569096591e66687ec",
+          "sha256": "7340fe2b1a0b5de1993852e9378b330f18a95c404319c437a7c05f7d05497897",
+          "sha1": "faf29522671ac2cb9eab98eeec3d527af1cc77ee",
+          "md5": "60a0c1959d340474e44afd81fbb05838"
+        }
+      ]
+    }
+  ]
+}

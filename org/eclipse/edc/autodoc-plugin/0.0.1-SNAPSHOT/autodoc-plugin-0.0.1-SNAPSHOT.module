@@ -1,0 +1,241 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "autodoc-plugin",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.0.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autodoc-plugin-0.0.1-SNAPSHOT.jar",
+          "url": "autodoc-plugin-0.0.1-SNAPSHOT.jar",
+          "size": 21629,
+          "sha512": "acb29b34122c82ea005b002ac71f0580d0278c071ab2b9979cd1ff074b87c4990f0633ccfb3d4aa18cf405ef9316b88dc848bbea189537f0e6613628dbeb4a9e",
+          "sha256": "fae7fc264997386c0fe307080004f59ca04c1a1fdcd2a7eb46aad447bafddf89",
+          "sha1": "11048c29958025a31db914bf1a2325c8e8014c03",
+          "md5": "f8bcfac4fc850d9c0aaa71e12efe970c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.0.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.0.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autodoc-plugin-0.0.1-SNAPSHOT.jar",
+          "url": "autodoc-plugin-0.0.1-SNAPSHOT.jar",
+          "size": 21629,
+          "sha512": "acb29b34122c82ea005b002ac71f0580d0278c071ab2b9979cd1ff074b87c4990f0633ccfb3d4aa18cf405ef9316b88dc848bbea189537f0e6613628dbeb4a9e",
+          "sha256": "fae7fc264997386c0fe307080004f59ca04c1a1fdcd2a7eb46aad447bafddf89",
+          "sha1": "11048c29958025a31db914bf1a2325c8e8014c03",
+          "md5": "f8bcfac4fc850d9c0aaa71e12efe970c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "autodoc-plugin-0.0.1-SNAPSHOT-javadoc.jar",
+          "url": "autodoc-plugin-0.0.1-SNAPSHOT-javadoc.jar",
+          "size": 300061,
+          "sha512": "406b5246cba6d513a547ee20c2c543bf7cfffef010f46a966f1de9538111d9b717ddfd68050f9f5a5fbee01f35c5c80ce79e138940649c4acf940162d4684a1c",
+          "sha256": "b16bd5d3ccec266aa03ce0368795b6976181f8786068ac5d38a3d4e8798388e4",
+          "sha1": "ef2ee076867689e78a2896c5b2ef61ba24b80ab7",
+          "md5": "2a483ec0a97f37e9a35d720920ba0e65"
+        },
+        {
+          "name": "autodoc-plugin-0.0.1-SNAPSHOT-javadoc.jar",
+          "url": "autodoc-plugin-0.0.1-SNAPSHOT-javadoc.jar",
+          "size": 300061,
+          "sha512": "406b5246cba6d513a547ee20c2c543bf7cfffef010f46a966f1de9538111d9b717ddfd68050f9f5a5fbee01f35c5c80ce79e138940649c4acf940162d4684a1c",
+          "sha256": "b16bd5d3ccec266aa03ce0368795b6976181f8786068ac5d38a3d4e8798388e4",
+          "sha1": "ef2ee076867689e78a2896c5b2ef61ba24b80ab7",
+          "md5": "2a483ec0a97f37e9a35d720920ba0e65"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "autodoc-plugin-0.0.1-SNAPSHOT-sources.jar",
+          "url": "autodoc-plugin-0.0.1-SNAPSHOT-sources.jar",
+          "size": 12484,
+          "sha512": "6cbcf12c1aa78c5f9597f8f8ab5434b656bd75b52f488f2619761a1d5268d0e43dcef3329407509daf464ded5c7de0d576b1c5a469545e4711a980da7d6e2a02",
+          "sha256": "aa3a28dde221320d3818a0632f63994717893853b8542ca7f11c561d69e620ff",
+          "sha1": "15616951cb21a13035252dd02f3f934176357dc1",
+          "md5": "4a0f716050901564d90e2cc74b01562e"
+        },
+        {
+          "name": "autodoc-plugin-0.0.1-SNAPSHOT-sources.jar",
+          "url": "autodoc-plugin-0.0.1-SNAPSHOT-sources.jar",
+          "size": 12484,
+          "sha512": "6cbcf12c1aa78c5f9597f8f8ab5434b656bd75b52f488f2619761a1d5268d0e43dcef3329407509daf464ded5c7de0d576b1c5a469545e4711a980da7d6e2a02",
+          "sha256": "aa3a28dde221320d3818a0632f63994717893853b8542ca7f11c561d69e620ff",
+          "sha1": "15616951cb21a13035252dd02f3f934176357dc1",
+          "md5": "4a0f716050901564d90e2cc74b01562e"
+        }
+      ]
+    }
+  ]
+}
