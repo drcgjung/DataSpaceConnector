@@ -1,0 +1,1 @@
+[{"categories":[""],"extensions":[],"extensionPoints":[{"service":"org.eclipse.edc.policy.engine.spi.PolicyEngine"},{"service":"org.eclipse.edc.policy.engine.spi.RuleBindingRegistry"}],"modulePath":"org.eclipse.edc:policy-engine-spi","version":"0.0.1-20230220.patch1-SNAPSHOT","name":"Policy Engine services"}]

@@ -1,0 +1,237 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "provision-blob",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-blob-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "provision-blob-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "provision-blob-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 30043,
+          "sha512": "c8d56a6c1eb638ae19316f7f6c3d0eb6aa43edb359c08eb54b5c9c2f7ac058a302671c4ed4e82d937e93f88bb4fa0593a80187d5c73998db795f68651b7bba7c",
+          "sha256": "e74de486c6bcc60478797179b2ca5dff59e3deba54a53f731d9c0114f714da3b",
+          "sha1": "4a2f4f9747ad95f52181286afb20f1ec1850d5fa",
+          "md5": "498363f1a0699313d76d0114d56c51b4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.azure",
+          "module": "azure-storage-blob",
+          "version": {
+            "requires": "12.19.1"
+          }
+        },
+        {
+          "group": "dev.failsafe",
+          "module": "failsafe",
+          "version": {
+            "requires": "3.2.4"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-blob-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "provision-blob-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "provision-blob-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 30043,
+          "sha512": "c8d56a6c1eb638ae19316f7f6c3d0eb6aa43edb359c08eb54b5c9c2f7ac058a302671c4ed4e82d937e93f88bb4fa0593a80187d5c73998db795f68651b7bba7c",
+          "sha256": "e74de486c6bcc60478797179b2ca5dff59e3deba54a53f731d9c0114f714da3b",
+          "sha1": "4a2f4f9747ad95f52181286afb20f1ec1850d5fa",
+          "md5": "498363f1a0699313d76d0114d56c51b4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "provision-blob-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "provision-blob-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "7f84df79e4c07a0d084f8fb669672b0265ecc9361d437bb37be1f9e4a3a9dfb36e3ecdeb1edd23066c8c192e30125cd3182a958025af2aaf725c65e481be26ce",
+          "sha256": "28b676237e6ed5c46385990f2352f372cf64539fbf0445ff1c610a9825f1e427",
+          "sha1": "7f9ae48cf2ef036c8a4dd3c56616a75f6ef59555",
+          "md5": "c8abceb96e7b9e3161b170bb3bc0f2fa"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "provision-blob-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "provision-blob-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 8936,
+          "sha512": "dfc1ae1705858b462c13519d3690fcd2c5de7c714badffa937e26d6c12dc4aeabb1696bd558a7094b27370f7eed455e02015ba456d4a539a972d73c1d9a6bdc9",
+          "sha256": "18524118ca683c390d756a48ecb8ee5301cb2cf36905d1b29b7ef5e9da48f432",
+          "sha1": "9cafc23d21b433864e62c925b9f3dcd0fdcf8b14",
+          "md5": "c2c05ad92cb8a2277684f2794da12ec5"
+        }
+      ]
+    }
+  ]
+}

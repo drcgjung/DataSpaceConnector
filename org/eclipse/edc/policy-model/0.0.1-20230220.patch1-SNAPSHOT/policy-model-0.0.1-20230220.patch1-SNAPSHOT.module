@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "policy-model",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "policy-model-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "policy-model-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 50851,
+          "sha512": "09d776e0642ec1da62addc04af3cc17fbaa34de2cd716298e03994f589a5258f72457a81885d0b55264ce123f0177325345af6470045a70dc236cbc4a07fce48",
+          "sha256": "42b90bd30e73631cd39b6455d525bedba0271569510e8017db870f00a86632d7",
+          "sha1": "6f56145970206ba7b98c23db81db7770a9575c9d",
+          "md5": "9e6bcdd1caf153dfbd43dcff700353a3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "policy-model-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "policy-model-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 50851,
+          "sha512": "09d776e0642ec1da62addc04af3cc17fbaa34de2cd716298e03994f589a5258f72457a81885d0b55264ce123f0177325345af6470045a70dc236cbc4a07fce48",
+          "sha256": "42b90bd30e73631cd39b6455d525bedba0271569510e8017db870f00a86632d7",
+          "sha1": "6f56145970206ba7b98c23db81db7770a9575c9d",
+          "md5": "9e6bcdd1caf153dfbd43dcff700353a3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "policy-model-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "policy-model-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "cb1c677138ce48e3219f154eca3c3f95d18eb66a4458f2b96309326bc90d0a3ff769e2055d7052b253fb97c3662e36f67eec1958a3e1405bcc59908d6f79a620",
+          "sha256": "b62c9016758d98b3f015be58684e0e749a0e80ec9cf63a55f139c1b3e813f7fe",
+          "sha1": "7209949c4f41385f016f5762a61bae08cc44b360",
+          "md5": "c1c1d66cd8d281589846757bbb175a52"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "policy-model-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "policy-model-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 18560,
+          "sha512": "2e7c5eb35c3fef6add703301528b0b5121d735e4f349577d8b7a58ae8a6bf131dba185e7fcace3cd9434ac31d3623d9d837dbff7c9a860d80a6874975384d63f",
+          "sha256": "55b9aaba370a14aec72546e66e67f985b09710a26d02d13d79fa0e6ce6c5def0",
+          "sha1": "820c6ddd0c7295b61c9d94a37ea480c498e4cd3c",
+          "md5": "ca808afd1f96038d312b95e262d4370d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "provision-aws-s3",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "control-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "aws-s3-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "provision-aws-s3-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "provision-aws-s3-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 42366,
+          "sha512": "1f8158c0c997bbfb65d0642d335c70ab4f8c37b747d01097c45756dcd01251894fa22720d153e34f156f95986c05de4397d04271822226831bd4a9c34948d3d1",
+          "sha256": "1146eb22e08c17916c95a40be9ecf48d9a2ff34fe8ce8153f7e9c415f044413d",
+          "sha1": "210fe72b34db08286f43c9b955914843d6fe3880",
+          "md5": "d13dcf5b303f970864a95c0f7a929ce3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "control-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "aws-s3-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "provision-aws-s3-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "provision-aws-s3-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 42366,
+          "sha512": "1f8158c0c997bbfb65d0642d335c70ab4f8c37b747d01097c45756dcd01251894fa22720d153e34f156f95986c05de4397d04271822226831bd4a9c34948d3d1",
+          "sha256": "1146eb22e08c17916c95a40be9ecf48d9a2ff34fe8ce8153f7e9c415f044413d",
+          "sha1": "210fe72b34db08286f43c9b955914843d6fe3880",
+          "md5": "d13dcf5b303f970864a95c0f7a929ce3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "provision-aws-s3-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "provision-aws-s3-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "dd5fec229b6538b4cbf1d6002f94dafbf239530c4aa3655f23e9b34dfa62b6f62ef0c422c88ceaf1f542a8c61531d0dae1bec11802126a4181741f0cacccec6a",
+          "sha256": "f064f20db5cc9bd5c4eb2a74d7649f17e145c46495ef27a60622500db21ed08f",
+          "sha1": "1b3dc6dbc424e40969369c9790b0f217d8d9f0dc",
+          "md5": "a4eae8c3fe669535e78520b39f2fc95c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "provision-aws-s3-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "provision-aws-s3-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 14221,
+          "sha512": "f46830acbd5e57591d1288c0e9e2a7630573e88e933a11fd5ed9278a69711304b72594dd778e49df4b00cf3bed3ef9ce1b7aee9cf4d55c993ec9c51dd138328a",
+          "sha256": "a01462d1ab72c7e69d989a00637f92ded9d85eb03091e54439beb120bcc19fe7",
+          "sha1": "825938b8178115dddfc640578d1f2ffa97eebb9b",
+          "md5": "87b1d87a89a391b0d67d36afaa2a0967"
+        }
+      ]
+    }
+  ]
+}

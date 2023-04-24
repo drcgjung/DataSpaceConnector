@@ -1,0 +1,332 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "sql-core",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sql-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "sql-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 48341,
+          "sha512": "1c38e13d5ac2043bce1b1c2289632ff210bc60f6b0bc3850f5b05f1faa1709d5f333c3297c3de132cbb89cbb61a6df9369c82c188a2b69a4df4b6be7d097a9c5",
+          "sha256": "040169ec351cfecc05baa02da0bfe2d9cb77ab06e6e80ed8d1c3ec8b9cc54dfe",
+          "sha1": "ee0d3daf11d63f42066cddb48419264a50d7a554",
+          "md5": "c2ecdf35a88d947775893e92d76a5283"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-datasource-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sql-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "sql-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 48341,
+          "sha512": "1c38e13d5ac2043bce1b1c2289632ff210bc60f6b0bc3850f5b05f1faa1709d5f333c3297c3de132cbb89cbb61a6df9369c82c188a2b69a4df4b6be7d097a9c5",
+          "sha256": "040169ec351cfecc05baa02da0bfe2d9cb77ab06e6e80ed8d1c3ec8b9cc54dfe",
+          "sha1": "ee0d3daf11d63f42066cddb48419264a50d7a554",
+          "md5": "c2ecdf35a88d947775893e92d76a5283"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "sql-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sql-core-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "url": "sql-core-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "size": 4494,
+          "sha512": "d737907fa22371cc696143b601f0ecfd634070a21124ee53b6479dae6a96a445a28e9f8cd46dc1eb3af423cdfe72a394bda81d36582ece0a0737a083da7fa00e",
+          "sha256": "098e41d5bce629ce0ef006a8c066c72993adb96045c882c03e1c3505bdaa0d66",
+          "sha1": "09a9f9f74c2ad0f84d8cf86a91fa5fcbd4adad16",
+          "md5": "40e772887cf9a5dd8e31f160e0b0d1ad"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.eclipse.edc",
+          "name": "sql-core-test-fixtures",
+          "version": "0.0.1-20230220.patch1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.4.0"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.8.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-datasource-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "sql-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sql-core-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "url": "sql-core-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "size": 4494,
+          "sha512": "d737907fa22371cc696143b601f0ecfd634070a21124ee53b6479dae6a96a445a28e9f8cd46dc1eb3af423cdfe72a394bda81d36582ece0a0737a083da7fa00e",
+          "sha256": "098e41d5bce629ce0ef006a8c066c72993adb96045c882c03e1c3505bdaa0d66",
+          "sha1": "09a9f9f74c2ad0f84d8cf86a91fa5fcbd4adad16",
+          "md5": "40e772887cf9a5dd8e31f160e0b0d1ad"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.eclipse.edc",
+          "name": "sql-core-test-fixtures",
+          "version": "0.0.1-20230220.patch1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sql-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "sql-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "350e5a81b4b631c0e68ae07a1425bb211bcdf72bfcecab4e87b5344e5ee0063bab8544ad89b227af6b888088196b67a2daff89c3e3fe0fe216dac03f804c11f7",
+          "sha256": "1b7db51169aa33d0b3a0a57a063fdbc1eea0cc24c884add4a7ae13b10a2df15d",
+          "sha1": "4d119416848e488922dfababc5351d8b0fd3a992",
+          "md5": "d55c72be2fa62236b1c48a59f124efc6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sql-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "sql-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 19377,
+          "sha512": "0c48f6edb848e939a175f140173bf7950e9b2cab66385ca2827081836ee47fb626f12eac4a49cd232642f3b5096c802db3e456eea57e4b56d05c803e43d6c917",
+          "sha256": "4a01b029230e100d45b6b466922ce2fb778ceb174c339a7af57a778fc0192c85",
+          "sha1": "fd77c2524d64c30c4fe5d3cc8e97d476cef29036",
+          "md5": "e8f91a3363f4f1b5c2fa8df617007dff"
+        }
+      ]
+    }
+  ]
+}

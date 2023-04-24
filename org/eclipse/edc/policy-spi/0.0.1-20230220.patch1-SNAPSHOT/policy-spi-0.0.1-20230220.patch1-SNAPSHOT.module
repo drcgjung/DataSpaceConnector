@@ -1,0 +1,297 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "policy-spi",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "policy-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "policy-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 21827,
+          "sha512": "d12bf38436f66b9ed081c3c19b3c09d477cdd3bf8cfbbd901e59f18aa44d516179734a831aa8302891d04d352f73038c7e8863f7ad42234ac4adc299aea182e1",
+          "sha256": "b3ffbaae364602236f2a7e9d062da80906e34cfe4fe262cba9added6670e6984",
+          "sha1": "16aeaa9ca4838e6e882919e4ba3a67e4f9a5a19e",
+          "md5": "26c9c84a9794ac05dd5be8fd2a2f8a1c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "policy-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "policy-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 21827,
+          "sha512": "d12bf38436f66b9ed081c3c19b3c09d477cdd3bf8cfbbd901e59f18aa44d516179734a831aa8302891d04d352f73038c7e8863f7ad42234ac4adc299aea182e1",
+          "sha256": "b3ffbaae364602236f2a7e9d062da80906e34cfe4fe262cba9added6670e6984",
+          "sha1": "16aeaa9ca4838e6e882919e4ba3a67e4f9a5a19e",
+          "md5": "26c9c84a9794ac05dd5be8fd2a2f8a1c"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "policy-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "policy-spi-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "url": "policy-spi-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "size": 11563,
+          "sha512": "aebd6ac2768490b91af670fa3959a4524ab4622366a14001f5e69357425b33ca6d92a5f1ae2aa67e57f9b417036c9667055129d6d4a1c397782b40b147de1157",
+          "sha256": "a7500b10d70079230d96f3e428821147fa950d9e35f295cf79775b858aab0d07",
+          "sha1": "a7df8894ea2a16a0cf4d7af1625c23cbe06b3663",
+          "md5": "a73742ce48fd119674d23ed2ab1cb9e3"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.eclipse.edc",
+          "name": "policy-spi-test-fixtures",
+          "version": "0.0.1-20230220.patch1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.8.2"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-params",
+          "version": {
+            "requires": "5.8.2"
+          }
+        },
+        {
+          "group": "org.assertj",
+          "module": "assertj-core",
+          "version": {
+            "requires": "3.22.0"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "policy-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "policy-spi-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "url": "policy-spi-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "size": 11563,
+          "sha512": "aebd6ac2768490b91af670fa3959a4524ab4622366a14001f5e69357425b33ca6d92a5f1ae2aa67e57f9b417036c9667055129d6d4a1c397782b40b147de1157",
+          "sha256": "a7500b10d70079230d96f3e428821147fa950d9e35f295cf79775b858aab0d07",
+          "sha1": "a7df8894ea2a16a0cf4d7af1625c23cbe06b3663",
+          "md5": "a73742ce48fd119674d23ed2ab1cb9e3"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.eclipse.edc",
+          "name": "policy-spi-test-fixtures",
+          "version": "0.0.1-20230220.patch1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "policy-spi-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "policy-spi-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "df64371a7a4d8bc2da12aa59c2ad39a64775fc0597c9f3bf647888fa4e3ad822615ec6f6a466965b37f085ce674b334955c50cecad9644001e3069ddfe31b346",
+          "sha256": "3c7777831996dd29baca097113356c0161a9b9b30d362b11372784c33971b796",
+          "sha1": "171bb890b0b1c4003e70a4ef378266e35784db1c",
+          "md5": "4b1c081823ac92a72c76d5be5e6b1f8a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "policy-spi-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "policy-spi-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 6805,
+          "sha512": "37b973f26466488747550cd15f2c95e812dafdbec18e35de609ff2d9fa4f96000aff758c0f4897d0ba3abfc23c6e007c9eb2f6f66b0f5a438ead42ea0a4a79c2",
+          "sha256": "fa3b8a11e300a8d17d4fb2daa1edcc7f35864d0918999b1e156a92059400b103",
+          "sha1": "28f6cb3fc15e404a17dabd547de0b1fdb2befe06",
+          "md5": "5505443d508db7cdf7ad51ed191c56f1"
+        }
+      ]
+    }
+  ]
+}

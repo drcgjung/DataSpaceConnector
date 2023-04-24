@@ -1,0 +1,244 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "policy-definition-store-sql",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "policy-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "policy-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 32701,
+          "sha512": "2b7a51836935c5c68216b4a7e0ba65b97565043786954373ce019fd4d9f665f4e546aa846bff7d2ca4448eb50219c83914d18057dc2729e5cc7d65a7f7c70a97",
+          "sha256": "d9dd01444a6ff8593e79349fdc5cb0b9cb16728bb956614202c4a43abcbefac6",
+          "sha1": "c4779394ca1787d3985c7fe146bb987293c28f9e",
+          "md5": "c69f445348a073c5682cfe17694fb608"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-datasource-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "sql-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "policy-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "policy-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 32701,
+          "sha512": "2b7a51836935c5c68216b4a7e0ba65b97565043786954373ce019fd4d9f665f4e546aa846bff7d2ca4448eb50219c83914d18057dc2729e5cc7d65a7f7c70a97",
+          "sha256": "d9dd01444a6ff8593e79349fdc5cb0b9cb16728bb956614202c4a43abcbefac6",
+          "sha1": "c4779394ca1787d3985c7fe146bb987293c28f9e",
+          "md5": "c69f445348a073c5682cfe17694fb608"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "policy-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "policy-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "7a80d1d5c8ab9450d409e804b5eb18e0c9c29bd7e6a4c3a46d0b82ee6bf55ab634dc2f8ed79c5e6c2ee075968c51fdb1b8ae2d1ef766460a308a377a5b28c361",
+          "sha256": "61122ed76751ff66411a48ccdc6505ffe6f31ddc5ed1486ff025a68a8170eb63",
+          "sha1": "7db17d7301324e6c26d779b3482df1d61c7e65e5",
+          "md5": "0ab5e98e1c583a7d5808324f564194a9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "policy-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "policy-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 10362,
+          "sha512": "ad928db68fb9f2464902e0f595eeedbfa29901ed04d8404eb2f29694edfbcc33e8071cbfcef36cf5beb6b426fb132010e1a189a11679162065775b19525d6647",
+          "sha256": "021ccd106223c9ec97316b3bf1307fe18f691217dc87118cfc82614fa4d7a8a3",
+          "sha1": "a5504df9659ab9744d093d224b454017585685a0",
+          "md5": "277009754145b5718eb8a2e187201cf4"
+        }
+      ]
+    }
+  ]
+}

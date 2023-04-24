@@ -1,0 +1,297 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "sql-pool-apache-commons",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-datasource-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "sql-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sql-pool-apache-commons-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "sql-pool-apache-commons-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 27385,
+          "sha512": "973f90c6289860047cf3786504f8908bf8e156ca81b894904aa31dadc13db9fef6173d8da0ccf2c45f6f9badb825c3eeba625f683f796a2ced6875c15c61d3c0",
+          "sha256": "27721c77a3ba551baaa5a5f49844cafbab589865aa770f211c9e068d933880fb",
+          "sha1": "42304fceea0ef7805b656701cfcf14a34363a133",
+          "md5": "e32b76bd4f7e00ad8c9c003bfe2b3697"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-pool2",
+          "version": {
+            "requires": "2.11.1"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-datasource-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "sql-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sql-pool-apache-commons-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "sql-pool-apache-commons-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 27385,
+          "sha512": "973f90c6289860047cf3786504f8908bf8e156ca81b894904aa31dadc13db9fef6173d8da0ccf2c45f6f9badb825c3eeba625f683f796a2ced6875c15c61d3c0",
+          "sha256": "27721c77a3ba551baaa5a5f49844cafbab589865aa770f211c9e068d933880fb",
+          "sha1": "42304fceea0ef7805b656701cfcf14a34363a133",
+          "md5": "e32b76bd4f7e00ad8c9c003bfe2b3697"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "sql-pool-apache-commons",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sql-pool-apache-commons-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "url": "sql-pool-apache-commons-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "size": 261,
+          "sha512": "b9406c705ebd468b539cda7a4734591312cf8674dcad6d33c3f9ca91582b397c35b2b0617c10c92d4d21dd15cf5b00bc0cc4707f5b2728df38848549f1699e5a",
+          "sha256": "5760eae8b8b321b1cf85a2dcded370c3c0a7d7144676b64cab4a0dc965f3814a",
+          "sha1": "62a576e9dc19c1a49b8555c2bd143787e132238c",
+          "md5": "1627704233f98b90045816381bb53160"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.eclipse.edc",
+          "name": "sql-pool-apache-commons-test-fixtures",
+          "version": "0.0.1-20230220.patch1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "sql-pool-apache-commons",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sql-pool-apache-commons-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "url": "sql-pool-apache-commons-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "size": 261,
+          "sha512": "b9406c705ebd468b539cda7a4734591312cf8674dcad6d33c3f9ca91582b397c35b2b0617c10c92d4d21dd15cf5b00bc0cc4707f5b2728df38848549f1699e5a",
+          "sha256": "5760eae8b8b321b1cf85a2dcded370c3c0a7d7144676b64cab4a0dc965f3814a",
+          "sha1": "62a576e9dc19c1a49b8555c2bd143787e132238c",
+          "md5": "1627704233f98b90045816381bb53160"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.eclipse.edc",
+          "name": "sql-pool-apache-commons-test-fixtures",
+          "version": "0.0.1-20230220.patch1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sql-pool-apache-commons-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "sql-pool-apache-commons-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "b9406c705ebd468b539cda7a4734591312cf8674dcad6d33c3f9ca91582b397c35b2b0617c10c92d4d21dd15cf5b00bc0cc4707f5b2728df38848549f1699e5a",
+          "sha256": "5760eae8b8b321b1cf85a2dcded370c3c0a7d7144676b64cab4a0dc965f3814a",
+          "sha1": "62a576e9dc19c1a49b8555c2bd143787e132238c",
+          "md5": "1627704233f98b90045816381bb53160"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sql-pool-apache-commons-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "sql-pool-apache-commons-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 7437,
+          "sha512": "9353b469eca89601dd57a7ad25058a7fe6f9ae80a1e7223e3445c5da7d73079e422374e136f5f0de5d3c60f0ae2b356cabae798425e4e53a5103336430c79c7a",
+          "sha256": "7efd5bc4c1de3daf5b88002281f05fe7f55a8269ebfb61b56e5204698295424c",
+          "sha1": "825371ca3fcbe4545df36765e00497145a7adeb5",
+          "md5": "3e27b552fc113c1139568808622285a4"
+        }
+      ]
+    }
+  ]
+}
