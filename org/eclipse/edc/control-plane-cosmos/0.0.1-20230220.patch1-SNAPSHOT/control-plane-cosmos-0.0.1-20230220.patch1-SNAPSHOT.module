@@ -1,0 +1,272 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "control-plane-cosmos",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "asset-index-cosmos",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-definition-store-cosmos",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-negotiation-store-cosmos",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "policy-definition-store-cosmos",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-cosmos-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-process-store-cosmos",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "control-plane-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "control-plane-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 15548,
+          "sha512": "2f227bc2087b3e65b5620bbd638e4001bde97ca69480ca033649372b6255b8cd7e5b4d8bf552f6401e58d4ce55f7828a06db40a9006d3d7b83c05faca3f9be59",
+          "sha256": "ec027c5900b2db643c445437b2b89dd3edd6f8cc996de059274b7b9a7dd83d33",
+          "sha1": "f8effb2f0bbd61d177b59d1cf08eaff53386de79",
+          "md5": "5f5550f2cd70c0bed9995f31ae7b9f38"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "asset-index-cosmos",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-definition-store-cosmos",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-negotiation-store-cosmos",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "policy-definition-store-cosmos",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-cosmos-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-process-store-cosmos",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "control-plane-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "control-plane-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 15548,
+          "sha512": "2f227bc2087b3e65b5620bbd638e4001bde97ca69480ca033649372b6255b8cd7e5b4d8bf552f6401e58d4ce55f7828a06db40a9006d3d7b83c05faca3f9be59",
+          "sha256": "ec027c5900b2db643c445437b2b89dd3edd6f8cc996de059274b7b9a7dd83d33",
+          "sha1": "f8effb2f0bbd61d177b59d1cf08eaff53386de79",
+          "md5": "5f5550f2cd70c0bed9995f31ae7b9f38"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "control-plane-cosmos-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "control-plane-cosmos-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "bf83b38de26211520a824ff11ca163c6684d913567935eec9ef95974ab9de048ad77dc7d62ce1d3b090930a099a80f28abd8755678464572e554e2c7e44cfa3e",
+          "sha256": "3674bd53f554cd5596d898b2f0b5c907f010161c1e6d486f6e075904a81579e1",
+          "sha1": "1618014284b8443be5129ca8e1c724b5dd4b64f1",
+          "md5": "41363d649dbe67f358cf05aab5345125"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "control-plane-cosmos-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "control-plane-cosmos-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 261,
+          "sha512": "bf83b38de26211520a824ff11ca163c6684d913567935eec9ef95974ab9de048ad77dc7d62ce1d3b090930a099a80f28abd8755678464572e554e2c7e44cfa3e",
+          "sha256": "3674bd53f554cd5596d898b2f0b5c907f010161c1e6d486f6e075904a81579e1",
+          "sha1": "1618014284b8443be5129ca8e1c724b5dd4b64f1",
+          "md5": "41363d649dbe67f358cf05aab5345125"
+        }
+      ]
+    }
+  ]
+}

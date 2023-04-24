@@ -1,0 +1,328 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "control-plane-spi",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "catalog-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "aggregate-service-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transform-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "web-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "policy-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "control-plane-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "control-plane-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 21452,
+          "sha512": "5ba4bab48445c6a165f4994b2371674d7e56500b6e79f8e8cdb03ae356e53701e0f260aeffbf411067e737f0a8db9a30de715ba7c953460e5916d9d1ccfedd25",
+          "sha256": "87f65d597dd7340365faedbbf80a846c2b4fa8752c2d29f6b636688ba328c672",
+          "sha1": "d55fae748c786e34616af9a35b7ff45a53157b3b",
+          "md5": "ec3b3bfd73564fc23098b8f4d34607ec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "catalog-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "aggregate-service-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transform-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "web-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "policy-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "control-plane-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "control-plane-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 21452,
+          "sha512": "5ba4bab48445c6a165f4994b2371674d7e56500b6e79f8e8cdb03ae356e53701e0f260aeffbf411067e737f0a8db9a30de715ba7c953460e5916d9d1ccfedd25",
+          "sha256": "87f65d597dd7340365faedbbf80a846c2b4fa8752c2d29f6b636688ba328c672",
+          "sha1": "d55fae748c786e34616af9a35b7ff45a53157b3b",
+          "md5": "ec3b3bfd73564fc23098b8f4d34607ec"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "control-plane-spi-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "control-plane-spi-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "19dc19f59eff5aba0f20fd64e7db33f73c873e8d36f98f004fd670c9d5e769078d09fd9f8d3858d8372d4c43d1de3d3a202791ddbbfa90aa0f2a25a3d9a85d60",
+          "sha256": "72f398dafebff193fe491aca0138a8739289d60b1513546834ee20e25f552b0d",
+          "sha1": "a75767a37f50689f353847a1ff06a7b6f5d7eedc",
+          "md5": "5e59dadedb4ad770d8f2abd8dbf51b35"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "control-plane-spi-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "control-plane-spi-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 8760,
+          "sha512": "3aec9b53605c1edf27a55b6bfce4c44474e38b876251ac3ab1962ce177c64e60f0e7c11e55d15391a981ec2abcea284d2cd284b142f2fb0c4d29f53d789290ca",
+          "sha256": "b9caa72907c7489fbd016d324f76f4579967b6246d4b705c106e37f7c2ad09e7",
+          "sha1": "bc2bc00b8af3c088c0722fa641dbe308a92e3532",
+          "md5": "97b7a66b9a3f28dc9e7160260bd9d903"
+        }
+      ]
+    }
+  ]
+}

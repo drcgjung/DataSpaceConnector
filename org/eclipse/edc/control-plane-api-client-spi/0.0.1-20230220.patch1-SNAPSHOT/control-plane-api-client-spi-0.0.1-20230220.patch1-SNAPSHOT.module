@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "control-plane-api-client-spi",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "control-plane-api-client-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "control-plane-api-client-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 18199,
+          "sha512": "1477ac582efd024074cdb29be1891e7fa1bdc267ed2cf9b3c0a68390e4fef5f7edbf3f914c7f26500a1123b2b224980bc4bc20541022867a49c4df3682dbbbf4",
+          "sha256": "9c2245d55f03b16bd247e54fadaf4f42eb97a3f764161578373d3d47a9771c20",
+          "sha1": "d4f4c0a4cfc99eb3c214a92b79df92d8a57ac9e2",
+          "md5": "69400816cc600531a8778f4bd602ab11"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "control-plane-api-client-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "control-plane-api-client-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 18199,
+          "sha512": "1477ac582efd024074cdb29be1891e7fa1bdc267ed2cf9b3c0a68390e4fef5f7edbf3f914c7f26500a1123b2b224980bc4bc20541022867a49c4df3682dbbbf4",
+          "sha256": "9c2245d55f03b16bd247e54fadaf4f42eb97a3f764161578373d3d47a9771c20",
+          "sha1": "d4f4c0a4cfc99eb3c214a92b79df92d8a57ac9e2",
+          "md5": "69400816cc600531a8778f4bd602ab11"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "control-plane-api-client-spi-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "control-plane-api-client-spi-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "19dc19f59eff5aba0f20fd64e7db33f73c873e8d36f98f004fd670c9d5e769078d09fd9f8d3858d8372d4c43d1de3d3a202791ddbbfa90aa0f2a25a3d9a85d60",
+          "sha256": "72f398dafebff193fe491aca0138a8739289d60b1513546834ee20e25f552b0d",
+          "sha1": "a75767a37f50689f353847a1ff06a7b6f5d7eedc",
+          "md5": "5e59dadedb4ad770d8f2abd8dbf51b35"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "control-plane-api-client-spi-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "control-plane-api-client-spi-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 3428,
+          "sha512": "f508fe969c1802309cf614bfed1cce8917d03cca0cfb2dab582bc349c487d4fcd06c0eab808413430a7ba3542f09805891ccef66b6c1a940048bd8ac660d1fc8",
+          "sha256": "84c167fedaa6e4f6101a7fb8d472aa42445c82371fa418cd04a2e73202c9cd53",
+          "sha1": "c7f1fe975c1699675200cae243a7bbd499f46359",
+          "md5": "791e850af7fcc535f5a958d86040de99"
+        }
+      ]
+    }
+  ]
+}

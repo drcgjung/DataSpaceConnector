@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "control-plane-aggregate-services",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "control-plane-aggregate-services-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "control-plane-aggregate-services-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 48817,
+          "sha512": "af1c4b4150a16577d39d687268e3300cc582a6f808e17582676bc7387699a54ecace1bbe073202c3335132aa13b232c9d2896b71993968d6160897b0238ae2f6",
+          "sha256": "c355a1b0af7f7e18b852066b8cab1c501d0718c72929d09743a4be23cd598710",
+          "sha1": "ab8f59f8b0428479debdf8e42728592b8ea403ab",
+          "md5": "51ae0941a098405d8db8eb9da322832b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "control-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "control-plane-aggregate-services-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "control-plane-aggregate-services-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 48817,
+          "sha512": "af1c4b4150a16577d39d687268e3300cc582a6f808e17582676bc7387699a54ecace1bbe073202c3335132aa13b232c9d2896b71993968d6160897b0238ae2f6",
+          "sha256": "c355a1b0af7f7e18b852066b8cab1c501d0718c72929d09743a4be23cd598710",
+          "sha1": "ab8f59f8b0428479debdf8e42728592b8ea403ab",
+          "md5": "51ae0941a098405d8db8eb9da322832b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "control-plane-aggregate-services-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "control-plane-aggregate-services-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 359059,
+          "sha512": "741197662214c6f351f02fc11c2416c2910b71cf77f240caf439d0ab47dd265ac06b92a9d34a35a8c6bdd78053407d156bae13deac7afc1832846b81ff9864b2",
+          "sha256": "ee9698368afc8fb1d76c3a3fe0c4caee3717d053d467d78a58689bdad8bddfa3",
+          "sha1": "f46504bd923e6d1739a68a6ea6b56f81a92b83d0",
+          "md5": "451a13e0f2e8d28919df6c174c0306da"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "control-plane-aggregate-services-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "control-plane-aggregate-services-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 20914,
+          "sha512": "467359f46f345f818beae0c7476cdec5dc0dd3770be422fe0b03b06382d948332badd99a5d6e2b9b85dbffa6f0108efaf6d69922e670b3e6c64e2173bf455466",
+          "sha256": "09996ef3a5055e0af9a1d628d6f6418c5f2a3af8923b1bdcd6c4ea8246ff83e8",
+          "sha1": "619a1e473a5ac193b6535621ab10e1a14f8f7474",
+          "md5": "f177eb292b52690a181e046778723d1f"
+        }
+      ]
+    }
+  ]
+}

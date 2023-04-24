@@ -1,0 +1,1 @@
+[{"categories":[""],"extensions":[],"extensionPoints":[{"service":"org.eclipse.edc.connector.api.client.spi.transferprocess.TransferProcessApiClient"}],"modulePath":"org.eclipse.edc:control-plane-api-client-spi","version":"0.0.1-20230220.patch1-SNAPSHOT","name":"Control Plane API Services"}]
