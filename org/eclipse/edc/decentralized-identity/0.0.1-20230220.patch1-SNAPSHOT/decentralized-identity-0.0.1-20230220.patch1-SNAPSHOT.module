@@ -1,0 +1,244 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "decentralized-identity",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "identity-did-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "identity-did-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "identity-did-service",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "identity-did-test",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "decentralized-identity-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "decentralized-identity-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 15548,
+          "sha512": "39e17a42339c43621b2455632ec16949caed7f3ddab74561c4adbb9f875766ba27548da931e9cab68f15e5805976ee7d50b061ae721cf59b6537a9d9808b7913",
+          "sha256": "586b41338b271d46d5d2248b47ccf165a69af5e48200564976efad6553453c96",
+          "sha1": "2203dbf54df9902a453b3bef3abf3d1a82f0db1c",
+          "md5": "a22183f67d20c14eb9e122f0c9b5cb45"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "identity-did-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "identity-did-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "identity-did-service",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "identity-did-test",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "decentralized-identity-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "decentralized-identity-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 15548,
+          "sha512": "39e17a42339c43621b2455632ec16949caed7f3ddab74561c4adbb9f875766ba27548da931e9cab68f15e5805976ee7d50b061ae721cf59b6537a9d9808b7913",
+          "sha256": "586b41338b271d46d5d2248b47ccf165a69af5e48200564976efad6553453c96",
+          "sha1": "2203dbf54df9902a453b3bef3abf3d1a82f0db1c",
+          "md5": "a22183f67d20c14eb9e122f0c9b5cb45"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "decentralized-identity-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "decentralized-identity-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "2849d3bbd424367889992f86958c0ea5c87849aa4ef48149f01dec86ec5d58a90e8c5335920c32364b9c0720cb4967c74826b36e30489d930a3bc0182e2ae083",
+          "sha256": "9b10016ea312207f092026b0e65f5e7a59232d3b0d3a339e65e45cf8582709f0",
+          "sha1": "8d791e72a41e1b5c821a8398aa34581e22d446e0",
+          "md5": "7950484f5cc3bc708b1386824b491bef"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "decentralized-identity-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "decentralized-identity-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 261,
+          "sha512": "2849d3bbd424367889992f86958c0ea5c87849aa4ef48149f01dec86ec5d58a90e8c5335920c32364b9c0720cb4967c74826b36e30489d930a3bc0182e2ae083",
+          "sha256": "9b10016ea312207f092026b0e65f5e7a59232d3b0d3a339e65e45cf8582709f0",
+          "sha1": "8d791e72a41e1b5c821a8398aa34581e22d446e0",
+          "md5": "7950484f5cc3bc708b1386824b491bef"
+        }
+      ]
+    }
+  ]
+}
