@@ -1,0 +1,223 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "identity-did-crypto",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "identity-did-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "jwt-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "identity-did-crypto-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "identity-did-crypto-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 25401,
+          "sha512": "136fd1a9202d7dab947bc3697e31c44701c7b59e9b4eb5e139c758aa2e86ed4b8ac5d87985d55fda84059a2ddb0635afc4071a1f296e701e257837dbda24c950",
+          "sha256": "f1726fc4948006dc62c1bc00018e0b8d19c430d8188239a34f1319de92079093",
+          "sha1": "9141bd5a9593e9d2c1120be0a4d00f765f66ae3e",
+          "md5": "536d31e6bc9327bffd5c3307efdf1a96"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "identity-did-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "jwt-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "identity-did-crypto-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "identity-did-crypto-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 25401,
+          "sha512": "136fd1a9202d7dab947bc3697e31c44701c7b59e9b4eb5e139c758aa2e86ed4b8ac5d87985d55fda84059a2ddb0635afc4071a1f296e701e257837dbda24c950",
+          "sha256": "f1726fc4948006dc62c1bc00018e0b8d19c430d8188239a34f1319de92079093",
+          "sha1": "9141bd5a9593e9d2c1120be0a4d00f765f66ae3e",
+          "md5": "536d31e6bc9327bffd5c3307efdf1a96"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "identity-did-crypto-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "identity-did-crypto-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "49d6ba1c1621553dab9df5b3af062726f6983eb71d9e297c83b250b711644cee4e02123bf5430ccf263ebc008351d25a23649df6e49fc4dd7f09f949e6ba48a7",
+          "sha256": "1a030bada7bb2fee29f237b1a887660528303527e453f772f68c0fd752b7c444",
+          "sha1": "2de628060742eea615385e1e61cd7930ebb13738",
+          "md5": "8ed2486244ee88da3426554a7848c5fd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "identity-did-crypto-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "identity-did-crypto-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 8709,
+          "sha512": "7d7db0b5d5464a4d360d8311c7651f6d72ba1005c9a0630289b4a39b41c0e04482e2df2d2f4b14b665c32c4783a3dad8660a7d6e449d52b1dd8b3087081a2bea",
+          "sha256": "326553aa7a672442778461ee02c54919fd77a5de0489786e454a29262f0df06e",
+          "sha1": "46a3b1814d4f8180438422c6f5a87bcfd4d1149b",
+          "md5": "a1019a0fe7e0f414cc88cf5834066f98"
+        }
+      ]
+    }
+  ]
+}

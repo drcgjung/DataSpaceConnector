@@ -1,0 +1,304 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "identity-did-web",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "identity-did-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "http-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "identity-did-web-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "identity-did-web-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 22775,
+          "sha512": "302c85d13396f9f61f88e92e4eb5885f955051a08bd28d4fd7b7ee833caa6b574ae44e15ee85fb3803573fc3709c53167c14e395075dc8bd7747a20e503533c8",
+          "sha256": "b1960f88c0d79cb9bf04ee65f659f935fd109b58c432e4f80b00720715c6f450",
+          "sha1": "fed9857b953a9626c381030d77d30a49236637fb",
+          "md5": "e2a335d71229689febf497fcd9edbb2e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "identity-did-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "http-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "identity-did-web-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "identity-did-web-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 22775,
+          "sha512": "302c85d13396f9f61f88e92e4eb5885f955051a08bd28d4fd7b7ee833caa6b574ae44e15ee85fb3803573fc3709c53167c14e395075dc8bd7747a20e503533c8",
+          "sha256": "b1960f88c0d79cb9bf04ee65f659f935fd109b58c432e4f80b00720715c6f450",
+          "sha1": "fed9857b953a9626c381030d77d30a49236637fb",
+          "md5": "e2a335d71229689febf497fcd9edbb2e"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "identity-did-web",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "identity-did-web-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "url": "identity-did-web-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "size": 261,
+          "sha512": "24c26fa5faaf2ee3bb50a40e51c07bfa61934b4bbdf751739d3290b742e56ca3a2ae547fb32227a9c4d6bd6d5a76da590927f2c12bef76ef85f189b522bac98f",
+          "sha256": "859fa674aa9b1ad1cd8cbad0894d48b567eaa5b80e6209992a8fa1c30cc04288",
+          "sha1": "0de569f38897e7907eb82e73a28685a0c892b9d3",
+          "md5": "ed19be58203ed32c1247cc835a876cff"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.eclipse.edc",
+          "name": "identity-did-web-test-fixtures",
+          "version": "0.0.1-20230220.patch1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "identity-did-web",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "identity-did-web-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "url": "identity-did-web-0.0.1-20230220.patch1-SNAPSHOT-test-fixtures.jar",
+          "size": 261,
+          "sha512": "24c26fa5faaf2ee3bb50a40e51c07bfa61934b4bbdf751739d3290b742e56ca3a2ae547fb32227a9c4d6bd6d5a76da590927f2c12bef76ef85f189b522bac98f",
+          "sha256": "859fa674aa9b1ad1cd8cbad0894d48b567eaa5b80e6209992a8fa1c30cc04288",
+          "sha1": "0de569f38897e7907eb82e73a28685a0c892b9d3",
+          "md5": "ed19be58203ed32c1247cc835a876cff"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.eclipse.edc",
+          "name": "identity-did-web-test-fixtures",
+          "version": "0.0.1-20230220.patch1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "identity-did-web-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "identity-did-web-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "24c26fa5faaf2ee3bb50a40e51c07bfa61934b4bbdf751739d3290b742e56ca3a2ae547fb32227a9c4d6bd6d5a76da590927f2c12bef76ef85f189b522bac98f",
+          "sha256": "859fa674aa9b1ad1cd8cbad0894d48b567eaa5b80e6209992a8fa1c30cc04288",
+          "sha1": "0de569f38897e7907eb82e73a28685a0c892b9d3",
+          "md5": "ed19be58203ed32c1247cc835a876cff"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "identity-did-web-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "identity-did-web-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 6075,
+          "sha512": "38072c8657c0bd9f0d4ba3ed99cd6d64cc59ce65b0a91a35e6846731f9e4c7768324d28aa01faf7771a35467fb04a8955cc460314f12da1be7fe3a1b3638bc69",
+          "sha256": "830db998d266dbc5f861fc3abbd436ee51d47484e69c51d7562eacc102f25e66",
+          "sha1": "7bc22adc0effb44e51d9c555771900e7d637b64e",
+          "md5": "127d7aa54c6c6c49d08b24df5a661b41"
+        }
+      ]
+    }
+  ]
+}
