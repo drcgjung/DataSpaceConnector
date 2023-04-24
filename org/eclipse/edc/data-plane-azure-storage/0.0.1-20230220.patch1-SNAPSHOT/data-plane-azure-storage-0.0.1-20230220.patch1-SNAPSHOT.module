@@ -1,0 +1,251 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "data-plane-azure-storage",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-blob-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-azure-storage-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-azure-storage-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 31114,
+          "sha512": "50dd613584b275e4c5b0e67da53cf61550bfb75e3668f9c54f37dbb6706bb8517d320950307838f6b5d41deed21824fdefa4133dbb3a825236002816a4b30422",
+          "sha256": "1d5784e7d9db9784ec9c303b76fc6787314aa4c470ac397d1eca4d51683dac22",
+          "sha1": "04d6d15d443dac3f169e1c79724a363bb9c79c61",
+          "md5": "fedbb4aa62584f0c88f9e3ff9d29f848"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.azure",
+          "module": "azure-storage-blob",
+          "version": {
+            "requires": "12.19.1"
+          }
+        },
+        {
+          "group": "dev.failsafe",
+          "module": "failsafe",
+          "version": {
+            "requires": "3.2.4"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-blob-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-azure-storage-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-azure-storage-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 31114,
+          "sha512": "50dd613584b275e4c5b0e67da53cf61550bfb75e3668f9c54f37dbb6706bb8517d320950307838f6b5d41deed21824fdefa4133dbb3a825236002816a4b30422",
+          "sha256": "1d5784e7d9db9784ec9c303b76fc6787314aa4c470ac397d1eca4d51683dac22",
+          "sha1": "04d6d15d443dac3f169e1c79724a363bb9c79c61",
+          "md5": "fedbb4aa62584f0c88f9e3ff9d29f848"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-azure-storage-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "data-plane-azure-storage-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 309882,
+          "sha512": "a2101d12520c3d9a01fa27e4d53047425dd7b124d3268c3915ca30d27fe2e80a346f049bdcae9c0376977e63d2b7e0d894a89d0c32445c3f1014d61185dbe8ec",
+          "sha256": "91fc24b7dcbc4ca58781098d7ed220d70a24e449bb6eddf6845a789f4bd805c5",
+          "sha1": "c46a8d01870751806fab685227294ccb1e6ee99a",
+          "md5": "7085ae4b83eb205a129fa29168537f54"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-azure-storage-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "data-plane-azure-storage-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 8914,
+          "sha512": "988d69600fe06b6312cd2de4616e536510fb01aa9d1bc09717694e85c3a37c9f700de6193afaaa603909ae063297e35d2b0bb81902e2d1f395b84cc26d0a80f3",
+          "sha256": "042d985aebda77bb9c2418b9c0adcbf7c4594ea0982adcdb43f7610c53bf9dbf",
+          "sha1": "999fe4791c2a16753092549797ed73b7704ed6a3",
+          "md5": "df7736c55e88902d0fc32a5cd4ca6f12"
+        }
+      ]
+    }
+  ]
+}

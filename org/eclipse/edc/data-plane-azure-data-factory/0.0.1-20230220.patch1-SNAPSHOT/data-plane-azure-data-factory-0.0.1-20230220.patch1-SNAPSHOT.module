@@ -1,0 +1,265 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "data-plane-azure-data-factory",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-azure-data-factory-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-azure-data-factory-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 33748,
+          "sha512": "a18c8daa0c4c6af9e1f0661f7fe803a602238fdfc2ff44a878d9a34023b104005f0a987f6135ad9fa7a66b35e93aa261a0dd8342dfc9ed762ccfc654ef737fde",
+          "sha256": "402082ee917d35a88b050afa722c60b344fde30f6fc7db17f60ecee33f46a384",
+          "sha1": "dac0fa58e998892496c51ffa5d6061a494e92af3",
+          "md5": "db254be1bf5a843972e8b36703c531df"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-blob-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.azure",
+          "module": "azure-identity",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.azure.resourcemanager",
+          "module": "azure-resourcemanager-datafactory",
+          "version": {
+            "requires": "1.0.0-beta.12"
+          }
+        },
+        {
+          "group": "com.azure.resourcemanager",
+          "module": "azure-resourcemanager-storage",
+          "version": {
+            "requires": "2.12.0"
+          }
+        },
+        {
+          "group": "com.azure.resourcemanager",
+          "module": "azure-resourcemanager-keyvault",
+          "version": {
+            "requires": "2.12.0"
+          }
+        },
+        {
+          "group": "com.azure.resourcemanager",
+          "module": "azure-resourcemanager",
+          "version": {
+            "requires": "2.12.0"
+          }
+        },
+        {
+          "group": "com.azure.resourcemanager",
+          "module": "azure-resourcemanager-authorization",
+          "version": {
+            "requires": "2.12.0"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-azure-data-factory-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-azure-data-factory-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 33748,
+          "sha512": "a18c8daa0c4c6af9e1f0661f7fe803a602238fdfc2ff44a878d9a34023b104005f0a987f6135ad9fa7a66b35e93aa261a0dd8342dfc9ed762ccfc654ef737fde",
+          "sha256": "402082ee917d35a88b050afa722c60b344fde30f6fc7db17f60ecee33f46a384",
+          "sha1": "dac0fa58e998892496c51ffa5d6061a494e92af3",
+          "md5": "db254be1bf5a843972e8b36703c531df"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-azure-data-factory-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "data-plane-azure-data-factory-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 291289,
+          "sha512": "ca836852cac90af5640c4e866396295e585327502c9ae9fa6c589e109172d6698ec537edb314198086b40a83e6ab91094c14165733c38e2da4a2c1a0bfe2e3ef",
+          "sha256": "96cb647744fbff3224d6975fc4391fa27fb0ddc454efd30071016c158c7fea4d",
+          "sha1": "9609738aaba9483c8468f8d90467edca6225a565",
+          "md5": "0e59597cbd1c111de7bedebf56f1d0ce"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-azure-data-factory-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "data-plane-azure-data-factory-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 11720,
+          "sha512": "12d9b02535e3b0566f0eea22506308d83e97cedc89466b32f72bc364a7321fbc35a1243358697337e51ecb412832b64215c0442a692b7b467a8d1c65d3490dd5",
+          "sha256": "9a5b91b451c3a3f6a49c3465282724495b5f74f4fcd21ba225d6d05427723d27",
+          "sha1": "168a1cf3802695133dcb2ed6b16fd0e2b247f338",
+          "md5": "6f3cec6f977d3ff69bbe408a77a41ef5"
+        }
+      ]
+    }
+  ]
+}

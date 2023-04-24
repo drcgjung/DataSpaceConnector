@@ -1,0 +1,244 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "data-plane-client",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "http-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-selector-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-client-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-client-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 22657,
+          "sha512": "e2aecad3861331456e5cfc5c33b07afef8c0b1b1e9f25a4dc28f5f0481c39547a729216aa373bb57edbb2a86631a2ab4c1a0f2bff0d06f2fd5213b2fd9f06e7a",
+          "sha256": "c11236dfd58ba03dbe91ab9a05928c411967b23006c3ceb20d9e22ed60eb0d18",
+          "sha1": "f77290dd41331f765f5aef7a0593421dbd65b2a7",
+          "md5": "464e586def6ff45dba78da8a6e225491"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-extension-annotations",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "http-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-selector-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-client-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-client-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 22657,
+          "sha512": "e2aecad3861331456e5cfc5c33b07afef8c0b1b1e9f25a4dc28f5f0481c39547a729216aa373bb57edbb2a86631a2ab4c1a0f2bff0d06f2fd5213b2fd9f06e7a",
+          "sha256": "c11236dfd58ba03dbe91ab9a05928c411967b23006c3ceb20d9e22ed60eb0d18",
+          "sha1": "f77290dd41331f765f5aef7a0593421dbd65b2a7",
+          "md5": "464e586def6ff45dba78da8a6e225491"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-client-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "data-plane-client-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 290582,
+          "sha512": "74d4af46e9bf64b8e353aa79daa451544a71ccf0facd968bd37f2df7f59475789b4fab76b443362c2509b43aa2156ec9aaf1f6ceb1bc6332f294dc56492d8f5c",
+          "sha256": "d7aa99fa66396e83c0417d0c255fdafa9207d64e5e71ee46e801a746a89478dd",
+          "sha1": "1713c1eace858e1ee30d3c3048c0716efb26816b",
+          "md5": "b65387ddb366de15bfadb3f168ccb88d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-client-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "data-plane-client-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 5217,
+          "sha512": "29e634290a2fa27385033d16b67332ab4e72c2e5f48c9315024b8480e4aefdc459d3df3886cb9f30c132f163283d4cdff654aeeaa947b3ec85d053865b24ee17",
+          "sha256": "2db3ec7081ac90c7543a7637313257abb8d92c3314ccd07e83ea4a2adac3a9fc",
+          "sha1": "993decabcb559ecf8dca6c82123e8edb2bd837f9",
+          "md5": "e20a74bb46426623248e9f90e4953dbe"
+        }
+      ]
+    }
+  ]
+}

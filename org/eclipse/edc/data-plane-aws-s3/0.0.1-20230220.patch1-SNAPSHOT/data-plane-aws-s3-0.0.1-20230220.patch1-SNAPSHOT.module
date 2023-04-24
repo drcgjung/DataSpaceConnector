@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "data-plane-aws-s3",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-aws-s3-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-aws-s3-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 32699,
+          "sha512": "826aac2f101adfb04a8ee4acdc8e60ca7b13ec53062a929d3a3bf30e83394fa7614c5882bbdf0264c57ec5f958647b0d8719a66fd9503464b05423ae2469c837",
+          "sha256": "a3190d0c858b56776a0111c21b7d3c6678be8f4aa4da0df7c9411b1f2aa7df5b",
+          "sha1": "27d60776605cc40f07d121e35f33891dada4b772",
+          "md5": "5dfa216a293b65885f8579916538a44b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "aws-s3-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "dev.failsafe",
+          "module": "failsafe",
+          "version": {
+            "requires": "3.2.4"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-aws-s3-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-aws-s3-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 32699,
+          "sha512": "826aac2f101adfb04a8ee4acdc8e60ca7b13ec53062a929d3a3bf30e83394fa7614c5882bbdf0264c57ec5f958647b0d8719a66fd9503464b05423ae2469c837",
+          "sha256": "a3190d0c858b56776a0111c21b7d3c6678be8f4aa4da0df7c9411b1f2aa7df5b",
+          "sha1": "27d60776605cc40f07d121e35f33891dada4b772",
+          "md5": "5dfa216a293b65885f8579916538a44b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-aws-s3-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "data-plane-aws-s3-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 301670,
+          "sha512": "824f9bee70344d7d34a6c1023e9e34fbc60e14602d77118bb161da5ca58483564d05685aceb2cb457147966f14a21403feac39268f6ef90a8e464e3f0241f807",
+          "sha256": "f09f9c94f8788268558c0b161373a74150945a22570c3217e901d3f6e8fc55de",
+          "sha1": "b121ce67d5b6fab120b80e13ec239ae39600f940",
+          "md5": "fe70341d4ded79c6f57d00a74202ebeb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-aws-s3-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "data-plane-aws-s3-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 10014,
+          "sha512": "a221d818a8578e2e2e44e3dc2088b1758dedfc34a16958c02f894e3ba5a9bb1a5a7727eb3b3bea32727540b97dfdec173123376538c8b404e3ca789b641d1e69",
+          "sha256": "6c2f24598459643cc909a6554c77ad890dd6b1feba91176d9b4ff7b2620b5b44",
+          "sha1": "2f1018eeb20bf35f9d52cf80e3c891a1fad42796",
+          "md5": "811649268fe4b9bf1ca0f9da53bf3e97"
+        }
+      ]
+    }
+  ]
+}

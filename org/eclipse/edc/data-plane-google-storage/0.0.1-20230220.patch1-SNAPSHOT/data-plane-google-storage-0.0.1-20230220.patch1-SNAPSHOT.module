@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "data-plane-google-storage",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-google-storage-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-google-storage-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 31902,
+          "sha512": "e156b43380e13fff5ad5e07e75834d13c33d6ad2c62faba809c6bf86ae0da2adb8d8a98833a92c6e8402c08a2dc12f0e1fd91ea1ae469c73264cbbadbeb7739d",
+          "sha256": "3873f3fd10a08217792cd52ecabd7ee0be94a187eed3643bc6ffe301cef1896a",
+          "sha1": "0e6f08acfc81e410c50b187a246d8fef2636c5ed",
+          "md5": "9082acce21c995203776bbbbf9878498"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "gcp-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-storage",
+          "version": {
+            "requires": "2.12.0"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-google-storage-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-google-storage-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 31902,
+          "sha512": "e156b43380e13fff5ad5e07e75834d13c33d6ad2c62faba809c6bf86ae0da2adb8d8a98833a92c6e8402c08a2dc12f0e1fd91ea1ae469c73264cbbadbeb7739d",
+          "sha256": "3873f3fd10a08217792cd52ecabd7ee0be94a187eed3643bc6ffe301cef1896a",
+          "sha1": "0e6f08acfc81e410c50b187a246d8fef2636c5ed",
+          "md5": "9082acce21c995203776bbbbf9878498"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-google-storage-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "data-plane-google-storage-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 313659,
+          "sha512": "4139dccf2fce37248d78eaca8e274f1316d3a91ce0b240d646a152420278575c267da6a003d5e47ff37be4b06d605189dff3d03d89dc4dc744d86b50c69ef8bc",
+          "sha256": "d37159e223b9c732e4f0e39546d06cd9cc20ca5e4486f10e75a2aebac12e6020",
+          "sha1": "a713bef3ae741d17f40bf02cb1d34758a8c40444",
+          "md5": "2f0af3aa3846f4267fcedcaf5cc8bcfc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-google-storage-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "data-plane-google-storage-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 9588,
+          "sha512": "88067d33b2274ba3ec509d85bf881a5483693fe31b4385107ef35af6276a33666cd47f77927ec656a7d9e84353f5795f7326413e83ffef5a19ce58cfe877ebce",
+          "sha256": "12d618935e789e24a25740aaafd5f3b4d0fa62b77c34a654b916286c6fd25a3e",
+          "sha1": "2c6405d6b77ce5620cf742a3974b45fdc53518a3",
+          "md5": "2ae23de94b52898fb46b82286314cc50"
+        }
+      ]
+    }
+  ]
+}
