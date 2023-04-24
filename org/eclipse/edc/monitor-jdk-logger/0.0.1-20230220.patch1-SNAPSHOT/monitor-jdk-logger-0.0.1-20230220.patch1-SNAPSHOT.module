@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "monitor-jdk-logger",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "monitor-jdk-logger-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "monitor-jdk-logger-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 18716,
+          "sha512": "b58c709572e162f9e3cb8eb26d6a01878edeb0ba86c9caa93429c542973fe73328ea051611b0f89b739a81cb6e2f8015dadd3bf903b46bfa51c98c94326e7cab",
+          "sha256": "dddfc45ab9a9e8e359c7dc77283115885533cf716fb3217ebb1c44591e1c07d7",
+          "sha1": "1b07dd3f2dfcd38a5ee965969282ebc26ada9820",
+          "md5": "77f52251a09d259eda94237e8fea9d88"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "monitor-jdk-logger-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "monitor-jdk-logger-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 18716,
+          "sha512": "b58c709572e162f9e3cb8eb26d6a01878edeb0ba86c9caa93429c542973fe73328ea051611b0f89b739a81cb6e2f8015dadd3bf903b46bfa51c98c94326e7cab",
+          "sha256": "dddfc45ab9a9e8e359c7dc77283115885533cf716fb3217ebb1c44591e1c07d7",
+          "sha1": "1b07dd3f2dfcd38a5ee965969282ebc26ada9820",
+          "md5": "77f52251a09d259eda94237e8fea9d88"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "monitor-jdk-logger-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "monitor-jdk-logger-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "d557e53ba4588e7e90dbe5b02348865d5aef03601960c6e6872c0904abbe8eecd20977115d03845c6d93ec52b6b141567bbfb974ad58584e5147a8fa3b63921f",
+          "sha256": "5353fce3648345fb4a49a96cd60bc4bed7959fe1ef0ac5e1b8f994683d3d5002",
+          "sha1": "fdcf68ab619685a14c7fab7d763a4840de328ec4",
+          "md5": "8bf2733c9c0d8905f77d44738bbaf91b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "monitor-jdk-logger-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "monitor-jdk-logger-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 2676,
+          "sha512": "870c5da49ad08dee11f9f9b1c0c7e233b065c031e7e0b52d35a67ec557003f14ac861820defbf5d6c4d7f1766ce0e0defa7b5781ffd29950c3544686f247fc38",
+          "sha256": "4a951be0f17937ebbd6d6d5fe37ee119dfe18cd319c683994701b7231d33a8c4",
+          "sha1": "cff6c2db83e739889309208fa752e3e8270231b1",
+          "md5": "ea0668c64e9de245fca786631403ff3e"
+        }
+      ]
+    }
+  ]
+}

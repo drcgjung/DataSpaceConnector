@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "jersey-micrometer",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jersey-micrometer-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "jersey-micrometer-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 17972,
+          "sha512": "9ff360f89a2dc035b2e51bd7463e24fb23983949889cb2cccbd92a5eb88e19e41e086197724519965ebe84bc8cf67289187e9bbc7f80215aca59027f1804d702",
+          "sha256": "8a1e6c6793b3194256b83244c6fa2dcbc04662b978999eadd37976a6f22f0a3c",
+          "sha1": "15dfdc3528d1c3796a62f8c52aa2654e4b0d8cc7",
+          "md5": "09f0d4ade2da2ef52c56d70dd585379b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "jersey-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jersey-micrometer-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "jersey-micrometer-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 17972,
+          "sha512": "9ff360f89a2dc035b2e51bd7463e24fb23983949889cb2cccbd92a5eb88e19e41e086197724519965ebe84bc8cf67289187e9bbc7f80215aca59027f1804d702",
+          "sha256": "8a1e6c6793b3194256b83244c6fa2dcbc04662b978999eadd37976a6f22f0a3c",
+          "sha1": "15dfdc3528d1c3796a62f8c52aa2654e4b0d8cc7",
+          "md5": "09f0d4ade2da2ef52c56d70dd585379b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jersey-micrometer-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "jersey-micrometer-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "9324fedbf4fe88fd2eb91347188677bc720e672ce7087ab24845dd4e0cd6f0c965bf21ea02204442ef4705bfa05cb4cb145eb71b05a08495ce6fde9eb54f9c7e",
+          "sha256": "2f8ce62ace700ad9bf817c92ff3fefc63822194c9affa0bda6e214a8f512f642",
+          "sha1": "b3d976318ae8f20178bcf214998388df98771dc9",
+          "md5": "cf328c61aeed7e824801e3bdaa28f809"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jersey-micrometer-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "jersey-micrometer-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 2541,
+          "sha512": "aec5da943ac72048f9694a1c5d3c48420b0d0ba2d251959b6864e241ecdb8af2498204857acfda90a23d84099b73e3f4d489db6d6af280582550f149569a03dd",
+          "sha256": "1e68c17b3eed5d811fd5404832e2601d1104089d98fc33dc8e1b8aea47587bce",
+          "sha1": "c8dd479b10730f39754b6d4b23efa80c3f51a6ce",
+          "md5": "3ccd89ad60cc175c68bb64ae0e99caa2"
+        }
+      ]
+    }
+  ]
+}

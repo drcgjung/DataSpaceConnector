@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "jetty-micrometer",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jetty-micrometer-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "jetty-micrometer-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 18922,
+          "sha512": "5d727d88ead37064624817b38c702587090371244777e932bd7170cc85c5faffd43a292fd7ced0995ceb652ec424ed53decf2d372d174eef9a189375a7307fe4",
+          "sha256": "d30f2259bf4ae388c804d3cd0214017557eef9d19fbb7dd8e87c5b2265aa1c6c",
+          "sha1": "5f9519c876a97baf854dcf0503abb5e7dd81e626",
+          "md5": "45e721a6d518442b50be1c6ce9d8f708"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jetty.websocket",
+          "module": "websocket-jakarta-server",
+          "version": {
+            "requires": "11.0.12"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "jetty-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jetty-micrometer-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "jetty-micrometer-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 18922,
+          "sha512": "5d727d88ead37064624817b38c702587090371244777e932bd7170cc85c5faffd43a292fd7ced0995ceb652ec424ed53decf2d372d174eef9a189375a7307fe4",
+          "sha256": "d30f2259bf4ae388c804d3cd0214017557eef9d19fbb7dd8e87c5b2265aa1c6c",
+          "sha1": "5f9519c876a97baf854dcf0503abb5e7dd81e626",
+          "md5": "45e721a6d518442b50be1c6ce9d8f708"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jetty-micrometer-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "jetty-micrometer-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "189295c5a46a1e3325c6030bf81e216a76d19e40b8c88c6389c4b35e5e628de8e42ca1a0f73ad14ecf65526a675aa04fa90bfa12d120ef07f833f625d29add3e",
+          "sha256": "12fbc9ba8325aee9360ad18a97686be166e3729c05065546d547df40173aebd2",
+          "sha1": "8025b7ab7d49245d18c9a33811ad4512e24ecdac",
+          "md5": "72c254cf1504ef969dbed4c9c020b26f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jetty-micrometer-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "jetty-micrometer-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 3361,
+          "sha512": "4583dc7e95db0eba9c92450c15e712f77ab564fc830837b7c7ed16e40902605329e3707e0e6bf925809132e6b5ba6619562ca30648eadd8dd745ca247d66f600",
+          "sha256": "19c2df3b689dae88805b82a9f3469857be4536504c74ffd1d5b3a6a2d04dccc4",
+          "sha1": "ffa0299f09f0ef49b4d2bacf6c62a3a0afbed392",
+          "md5": "44919b357db1b9ae6497ccbd22ef27d4"
+        }
+      ]
+    }
+  ]
+}

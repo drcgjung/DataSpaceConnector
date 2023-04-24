@@ -1,0 +1,272 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "jersey-core",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "web-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "jetty-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jersey-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "jersey-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 34349,
+          "sha512": "81969bd9d6e81cabc750ef1355060a4f22fce48f4d09bbb1078b4a7f3a22b58a06bb45fb53417a7ef8885cd447bc4d274085adc35d1ad040b0a03ce8492e588c",
+          "sha256": "5a4870134668bb62a1beef6a7bbaf9a6f04b07cb25043e5318b96dfdc9e708b7",
+          "sha1": "01b38997fd6c1629227d51cd4b7c54c57e4367c4",
+          "md5": "f1843e2866aa6340880642ab109b91d3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.glassfish.jersey.core",
+          "module": "jersey-server",
+          "version": {
+            "requires": "3.0.8"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.core",
+          "module": "jersey-common",
+          "version": {
+            "requires": "3.0.8"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.media",
+          "module": "jersey-media-json-jackson",
+          "version": {
+            "requires": "3.0.8"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.media",
+          "module": "jersey-media-multipart",
+          "version": {
+            "requires": "3.0.8"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.inject",
+          "module": "jersey-hk2",
+          "version": {
+            "requires": "3.0.8"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.containers",
+          "module": "jersey-container-servlet",
+          "version": {
+            "requires": "3.0.8"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.containers",
+          "module": "jersey-container-servlet-core",
+          "version": {
+            "requires": "3.0.8"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty.toolchain",
+          "module": "jetty-jakarta-servlet-api",
+          "version": {
+            "requires": "5.0.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "web-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "jetty-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jersey-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "jersey-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 34349,
+          "sha512": "81969bd9d6e81cabc750ef1355060a4f22fce48f4d09bbb1078b4a7f3a22b58a06bb45fb53417a7ef8885cd447bc4d274085adc35d1ad040b0a03ce8492e588c",
+          "sha256": "5a4870134668bb62a1beef6a7bbaf9a6f04b07cb25043e5318b96dfdc9e708b7",
+          "sha1": "01b38997fd6c1629227d51cd4b7c54c57e4367c4",
+          "md5": "f1843e2866aa6340880642ab109b91d3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jersey-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "jersey-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "ce72cc85d6b0ffaf3050d80458323fe65fb95bec5749d4aa676f58f5027ed1a3a86ed47ec2a8f0b4e38c350bbf4490f47a55c73610f8440a7b05d41c556fba1a",
+          "sha256": "0ac03a02fc995ca3557be68362aa1435c426e53cc977dd9911c7a8991def0095",
+          "sha1": "302523d0ce428cc16cabddd6d1990fe6d2553f0d",
+          "md5": "af2a5c7064d5c95e2812195206d3c5b9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jersey-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "jersey-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 13247,
+          "sha512": "e1ddccd2e926571b63156344f4a4a29d585bec67e4bd6e7fb59e152edd971626f04f12e8f76e176ecd81067adfb8104d18fc0b64cca0d6626246cfe153dbd19f",
+          "sha256": "c8ed26324e516ac06157599571f0a8fe493cec5461d9ca3b6827002f44333cea",
+          "sha1": "02f793cc9e6d30b976806e361ff0c311b73f71e7",
+          "md5": "97a68ada3399c11b670b02717400766f"
+        }
+      ]
+    }
+  ]
+}

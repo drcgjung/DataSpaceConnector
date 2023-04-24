@@ -1,0 +1,209 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "jwt-core",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "jwt-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jwt-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "jwt-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 24697,
+          "sha512": "6e1ec705782912532aed7e4d975e184290004e865d5f09d314d799d74320ead6ad45c510035c2cdb160c958bcc38b645f0cd95e1b3dedcded7b69b7b5110eee6",
+          "sha256": "1a141adf68294865d93c7539f52b2bb5c5f6167cc1854cb10fdb3975302f0728",
+          "sha1": "9bc2a60ad8f4c74d5f2f086462f1c1dd7b3120cf",
+          "md5": "29e15f6f36a115d4ef60dda9886883f7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.nimbusds",
+          "module": "nimbus-jose-jwt",
+          "version": {
+            "requires": "9.25"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "jwt-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jwt-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "jwt-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 24697,
+          "sha512": "6e1ec705782912532aed7e4d975e184290004e865d5f09d314d799d74320ead6ad45c510035c2cdb160c958bcc38b645f0cd95e1b3dedcded7b69b7b5110eee6",
+          "sha256": "1a141adf68294865d93c7539f52b2bb5c5f6167cc1854cb10fdb3975302f0728",
+          "sha1": "9bc2a60ad8f4c74d5f2f086462f1c1dd7b3120cf",
+          "md5": "29e15f6f36a115d4ef60dda9886883f7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jwt-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "jwt-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 290971,
+          "sha512": "cae6a47a02b92f252d37f94c83971879916fbea9fe16bbaad5db2c0108444d09eab30e6cf6f834ca1d3e01d0691b65514e43247d3b020519ff8a59cf4a6cfb81",
+          "sha256": "1170c409853f538d324e01e306e24dc987bc227267b0ce718fa2398368bcf1f6",
+          "sha1": "f97ac68e2ad05f97cdbcdad375b424ea54537a67",
+          "md5": "67da126cac7fc10722c5d733cbf4c9c2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jwt-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "jwt-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 4998,
+          "sha512": "30e97abff82fcb7b694a942b720e63db359914936827750aad660ca091ebee50a04b7bd94aba3e563bb25d94e5d87a5e4e8db337f9f87b6b9c08c0def8d254d6",
+          "sha256": "2d297ada6d671cd5aaa5b3df00c1489fa3a9831ebc31ee409e8fa8b443647a44",
+          "sha1": "13fa0428a171acb8634b0f79c5abcfa1efc05f82",
+          "md5": "c7add40fea530d70e0096743208bd9d9"
+        }
+      ]
+    }
+  ]
+}

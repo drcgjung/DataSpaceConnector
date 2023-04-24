@@ -1,0 +1,220 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "openapi-merger",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.0.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openapi-merger-0.0.1-SNAPSHOT.jar",
+          "url": "openapi-merger-0.0.1-SNAPSHOT.jar",
+          "size": 14512,
+          "sha512": "3da43509f7d5454b33e2ed31a502f85269f921b06b8a57c2c5e75722e604669e239e00d93c49595fa2e731df26cf304a529f59ba470d0b395b91781e03508c67",
+          "sha256": "b6e3a3f759d83d2721e83ed75aae3a3e81a7989f96cdcec3c387405b56f161f7",
+          "sha1": "fd6956397b2c6449d4726e80a512dc2f6b54e939",
+          "md5": "586b75894403ac9aace3bbffd2aca0b2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.rameshkp",
+          "module": "openapi-merger-gradle-plugin",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.rameshkp",
+          "module": "openapi-merger-app",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.0.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openapi-merger-0.0.1-SNAPSHOT.jar",
+          "url": "openapi-merger-0.0.1-SNAPSHOT.jar",
+          "size": 14512,
+          "sha512": "3da43509f7d5454b33e2ed31a502f85269f921b06b8a57c2c5e75722e604669e239e00d93c49595fa2e731df26cf304a529f59ba470d0b395b91781e03508c67",
+          "sha256": "b6e3a3f759d83d2721e83ed75aae3a3e81a7989f96cdcec3c387405b56f161f7",
+          "sha1": "fd6956397b2c6449d4726e80a512dc2f6b54e939",
+          "md5": "586b75894403ac9aace3bbffd2aca0b2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openapi-merger-0.0.1-SNAPSHOT-javadoc.jar",
+          "url": "openapi-merger-0.0.1-SNAPSHOT-javadoc.jar",
+          "size": 297866,
+          "sha512": "1b6b7b978a16d428e5238842e94679d5ad11dfc512a927aedce52e169df5ed27f9a0ed333572a901eb81fe6a53733823abfdc73ea854ad4ca367e113a6429150",
+          "sha256": "176751502f04d35bd05967f0f8939e8749e1aba77712c06af37e12997eff9953",
+          "sha1": "faf17c8c4dd357e4fc614e39531af175a779da35",
+          "md5": "2448d1044289ef51ec6f4956d7bc3bcf"
+        },
+        {
+          "name": "openapi-merger-0.0.1-SNAPSHOT-javadoc.jar",
+          "url": "openapi-merger-0.0.1-SNAPSHOT-javadoc.jar",
+          "size": 297866,
+          "sha512": "1b6b7b978a16d428e5238842e94679d5ad11dfc512a927aedce52e169df5ed27f9a0ed333572a901eb81fe6a53733823abfdc73ea854ad4ca367e113a6429150",
+          "sha256": "176751502f04d35bd05967f0f8939e8749e1aba77712c06af37e12997eff9953",
+          "sha1": "faf17c8c4dd357e4fc614e39531af175a779da35",
+          "md5": "2448d1044289ef51ec6f4956d7bc3bcf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openapi-merger-0.0.1-SNAPSHOT-sources.jar",
+          "url": "openapi-merger-0.0.1-SNAPSHOT-sources.jar",
+          "size": 8401,
+          "sha512": "4e517b9f4ed371e889e798c44f49ca8e14d5abcf6e18a35df63c3aebdb7f42423fa9921208b466c2be4e612583d1d15a4395c933fa1452b75af657def67f8cab",
+          "sha256": "24bb87a47eab1bf5274278ba70cd7ffe59d9d9e88c69d8aa867ee31577aa569d",
+          "sha1": "15bc577103c3385f9c9bb0b3eb1efa696eec3dfb",
+          "md5": "3430bd1cbb32bed167bd5ef1fda64047"
+        },
+        {
+          "name": "openapi-merger-0.0.1-SNAPSHOT-sources.jar",
+          "url": "openapi-merger-0.0.1-SNAPSHOT-sources.jar",
+          "size": 8401,
+          "sha512": "4e517b9f4ed371e889e798c44f49ca8e14d5abcf6e18a35df63c3aebdb7f42423fa9921208b466c2be4e612583d1d15a4395c933fa1452b75af657def67f8cab",
+          "sha256": "24bb87a47eab1bf5274278ba70cd7ffe59d9d9e88c69d8aa867ee31577aa569d",
+          "sha1": "15bc577103c3385f9c9bb0b3eb1efa696eec3dfb",
+          "md5": "3430bd1cbb32bed167bd5ef1fda64047"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "micrometer-core",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micrometer-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "micrometer-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 19178,
+          "sha512": "b4f99e022bc1bd17dee20ad3059809c4f0c7204f3f5132ca33ce45fdbcfa9d542923e04dc1f522f324c913337fac56b3adefc466837daebc3bdfe968e1cc3375",
+          "sha256": "821b5a56ceaabbd1b6fc8e6c787e7b2ba3e0b535e879afd0064019d64c6e9d9a",
+          "sha1": "5df95ece888019525bb32e567df8f20741b169f7",
+          "md5": "9f8316e0c932be54c490da36f5dcc122"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micrometer-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "micrometer-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 19178,
+          "sha512": "b4f99e022bc1bd17dee20ad3059809c4f0c7204f3f5132ca33ce45fdbcfa9d542923e04dc1f522f324c913337fac56b3adefc466837daebc3bdfe968e1cc3375",
+          "sha256": "821b5a56ceaabbd1b6fc8e6c787e7b2ba3e0b535e879afd0064019d64c6e9d9a",
+          "sha1": "5df95ece888019525bb32e567df8f20741b169f7",
+          "md5": "9f8316e0c932be54c490da36f5dcc122"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micrometer-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "micrometer-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "9eafb369bef6d9a836e57b990cc905b5fdae3f18936d5be5a67d40f84d7fb719961dd900593a82f88211122cf7564716165261cc1490ffbbcffc2bb786472558",
+          "sha256": "b273de44febb6f9a52a3450fd9dd8be313d475429cfc9c5fe40aad45c94e982d",
+          "sha1": "f27d0483f6cc6e6830ce8f4628d8971ff89f0045",
+          "md5": "532128b63a82f0673fee77fe5016645a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micrometer-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "micrometer-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 3416,
+          "sha512": "776edb3881d2c44e25353b6e1414be49913c379a19f56978418a1eab23b1b885f7db9d883b56192150002ece2cb59237a46e1ebc7087b95a0da9f6408756dc98",
+          "sha256": "96e11afb64dc3bbc918675f5633ffdecbfb1fe7b5976ea5e6594c0e9b797e929",
+          "sha1": "fafa640ee9bec710b07a8c2eac4c10dfead9ed47",
+          "md5": "8e3a6818f1c67632927e45733f8bef5a"
+        }
+      ]
+    }
+  ]
+}

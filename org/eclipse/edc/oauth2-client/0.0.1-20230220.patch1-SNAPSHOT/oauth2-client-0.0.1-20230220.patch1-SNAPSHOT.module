@@ -1,0 +1,216 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "oauth2-client",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "http-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "oauth2-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "oauth2-client-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "oauth2-client-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 20737,
+          "sha512": "6d7c62713050a7439c43118ce195671e6bd241d0594d9895d25a343400d896f1cc03969209da61414f33bc0ec763ddd4ddaaf36f1fb5ddc352d131e9328165e9",
+          "sha256": "353f413906c09696044b85d90454887115ff3f14fbed296b94d4c8f44590c02a",
+          "sha1": "8f6484ac56b692ccd2cd97995bfaf23db44ad18f",
+          "md5": "1b6c982b0e38218140b42dfda961498d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "http-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "oauth2-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "oauth2-client-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "oauth2-client-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 20737,
+          "sha512": "6d7c62713050a7439c43118ce195671e6bd241d0594d9895d25a343400d896f1cc03969209da61414f33bc0ec763ddd4ddaaf36f1fb5ddc352d131e9328165e9",
+          "sha256": "353f413906c09696044b85d90454887115ff3f14fbed296b94d4c8f44590c02a",
+          "sha1": "8f6484ac56b692ccd2cd97995bfaf23db44ad18f",
+          "md5": "1b6c982b0e38218140b42dfda961498d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "oauth2-client-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "oauth2-client-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "5f1458caaff21e6edeade1b8883bc9ef192fc8a1567825f6d01a7daf764214c8e3ce4cb1dae4f02bece73f695a89a3f7e8e040c1808d8723f4ae5b1b3bf78295",
+          "sha256": "3b7564c99e4247d7ad21deeb39d84db258b5603ac9ab8c5f09482e8e3fa45786",
+          "sha1": "b6b6b4bd63e83c2ea1b5d8b7b65ef15d7edcbf03",
+          "md5": "90a6a45d2e28e5c095dee24623cf67d6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "oauth2-client-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "oauth2-client-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 3609,
+          "sha512": "9edd2b0a826eeb81dcd1a9a772c09482d3f304f50f4ba4c85d479225915932155259f155df9db2d561299b8719f7beda8b35dd71c0ef530a8a3a58b11d0d5f10",
+          "sha256": "2fb0d54b0eb88d1dd6a109b77d448968cfc351439adaa886007941f93d26b8f2",
+          "sha1": "dc10398aa7ebcfe5d940c77b9e7507829c0a9259",
+          "md5": "c8d8b55cdf50878047e396657b81985c"
+        }
+      ]
+    }
+  ]
+}
