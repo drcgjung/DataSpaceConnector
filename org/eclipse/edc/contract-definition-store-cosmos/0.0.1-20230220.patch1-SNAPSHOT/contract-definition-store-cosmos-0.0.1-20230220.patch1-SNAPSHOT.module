@@ -1,0 +1,251 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "contract-definition-store-cosmos",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-cosmos-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "contract-definition-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "contract-definition-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 24403,
+          "sha512": "40ac667cc4197598ddc96057375f0c2f66a59f8f0cbd656151035709a3998d754b79cba7a649cb388503987502856ab358688ba82d8d3760af9cfcf7c4eabc70",
+          "sha256": "d128c9f453f0a153fe9367587f8f24dc2a219f9ad7c2014cb8c9a8091f67a4bd",
+          "sha1": "5f7fc6d7eca3e200eaaa98fa50971211438aa33c",
+          "md5": "8ddd9dc6750d70c57415d45f4bd52233"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.azure",
+          "module": "azure-cosmos",
+          "version": {
+            "requires": "4.37.0"
+          }
+        },
+        {
+          "group": "dev.failsafe",
+          "module": "failsafe",
+          "version": {
+            "requires": "3.2.4"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-cosmos-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "contract-definition-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "contract-definition-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 24403,
+          "sha512": "40ac667cc4197598ddc96057375f0c2f66a59f8f0cbd656151035709a3998d754b79cba7a649cb388503987502856ab358688ba82d8d3760af9cfcf7c4eabc70",
+          "sha256": "d128c9f453f0a153fe9367587f8f24dc2a219f9ad7c2014cb8c9a8091f67a4bd",
+          "sha1": "5f7fc6d7eca3e200eaaa98fa50971211438aa33c",
+          "md5": "8ddd9dc6750d70c57415d45f4bd52233"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "contract-definition-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "contract-definition-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "520f984230d4d28b377626901ad2ef2bc04566241f861ce856008a56401902a2a5270ebbb4910d4913027d081d509364227a51f3ac4c7353f7f51d519fc2d1fa",
+          "sha256": "4667da9b616c26a196910598feda8f54456aab82c69f286915d039d67f74320e",
+          "sha1": "e5267a39d6865f473dcb0ec1f19c3f34dd35aefc",
+          "md5": "2652041bdc76e2b39c528a939db949c4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "contract-definition-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "contract-definition-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 6725,
+          "sha512": "ca8fb7f2c759d0ca40498bc58dd204cea0745444e9be6634e8516e954a8dbbba7628a9733869573e7aa8bc8d159f2db936fa46db5253cc38dceb14f3681a343a",
+          "sha256": "6c706adcf5a736c0b2f1b964f9f4600d7f2875e6f93f4598f76782e268471151",
+          "sha1": "892d3e25d8762d13e702704a6603f5633660f404",
+          "md5": "c808710ef55a7b43b13cad9f2bef13b6"
+        }
+      ]
+    }
+  ]
+}

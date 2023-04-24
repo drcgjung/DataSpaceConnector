@@ -1,0 +1,286 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "connector-core",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "http-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "policy-engine-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-datasource-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connector-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "connector-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 43429,
+          "sha512": "875d394ec0a3d85e535ceec0af583ecaed389b0648059328249bd024065f32cb17429f0be8598a35a6331765d0773356374c5bb819085f863e05309f7f562141",
+          "sha256": "2fed554c7a9bbb34be0b6a2cdeffd687785797e222c94ee0905f78ac6a82859d",
+          "sha1": "354c625e4e8ec785c924ad3d6d806b4cf452066b",
+          "md5": "9d5355f9f0597a12e9d6fa0805707964"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "policy-engine",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-dnsoverhttps",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk18on",
+          "version": {
+            "requires": "1.72"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "http-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "policy-engine-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-datasource-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connector-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "connector-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 43429,
+          "sha512": "875d394ec0a3d85e535ceec0af583ecaed389b0648059328249bd024065f32cb17429f0be8598a35a6331765d0773356374c5bb819085f863e05309f7f562141",
+          "sha256": "2fed554c7a9bbb34be0b6a2cdeffd687785797e222c94ee0905f78ac6a82859d",
+          "sha1": "354c625e4e8ec785c924ad3d6d806b4cf452066b",
+          "md5": "9d5355f9f0597a12e9d6fa0805707964"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "connector-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "connector-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 347815,
+          "sha512": "04be43dc1ab88d3be736fcf3708318bac061c7d5d48196a0f649a27de49d243e6907ae45c88b146fc45b018d92e60248c6ad211baeada1ebb4d5890e07d11f86",
+          "sha256": "0ff6a9a94460c7572a75070b22ef13d9485cbf9ca7e6b871ed38d92a1a0506c1",
+          "sha1": "fe6a1d1625ae63f13e641090db9f687289620e5e",
+          "md5": "0619f16e4e6a003364973c2b183d2f3b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "connector-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "connector-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 17186,
+          "sha512": "03ff76b4875b629914d43e36ed6b57e28e1754dda467755231b052c41e26e4b16a3e2779b3c044cd49029c1bfe5141b357c9b203b8b8d626c818b2f3cb8ba346",
+          "sha256": "dd15c84cb22a3ba91da8749e18aafa7d936937ffbf2934058ba67d6c7be3adea",
+          "sha1": "04cf1bf355daa845ce33c96f3c9aa302c6d6cc9a",
+          "md5": "d08b09a8aff22c1493f6f346cc14bd57"
+        }
+      ]
+    }
+  ]
+}

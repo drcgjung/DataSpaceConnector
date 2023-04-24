@@ -1,0 +1,244 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "contract-definition-store-sql",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "contract-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "contract-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 29414,
+          "sha512": "dda87db3e8247eb706de77184e868ce2835c48ad7db88ee0ef1c6df075321f649abc71d47af147e220001c77ebc3f6af4829f1cd5e307dc167fcdfe07f720245",
+          "sha256": "48767c0e732b8cc34d7e8f97b8ce4fab919acba6615d9dfba97839efcecf557d",
+          "sha1": "ea713d1ec1068bb2df00aa4dd25c365113c5d55f",
+          "md5": "204447b1f003c9de45a748488ec2a816"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-datasource-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "sql-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "contract-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "contract-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 29414,
+          "sha512": "dda87db3e8247eb706de77184e868ce2835c48ad7db88ee0ef1c6df075321f649abc71d47af147e220001c77ebc3f6af4829f1cd5e307dc167fcdfe07f720245",
+          "sha256": "48767c0e732b8cc34d7e8f97b8ce4fab919acba6615d9dfba97839efcecf557d",
+          "sha1": "ea713d1ec1068bb2df00aa4dd25c365113c5d55f",
+          "md5": "204447b1f003c9de45a748488ec2a816"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "contract-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "contract-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "db203c67721b93b7f4b6d1c6ac4f6ae9e499df583eb1c3beb888c11f9a2a492f951e460452bb63f0c16ec29e943f5392f0d2da454b3299184bf4333aa4020cc8",
+          "sha256": "7a33a362c9b488c42dfe19c77cfea9bcdbae0836dfe1abbaf6e967f160d9e55c",
+          "sha1": "a377862f9b2e992d9664be5f7f0e5712ddb48474",
+          "md5": "730e3481eabc54e59ff8f240f65d2400"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "contract-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "contract-definition-store-sql-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 10758,
+          "sha512": "4e6840562f15c4a1a007ff925993994b0ce9c766b4f3e36551aefc02da0a642eb9fc0d22b219f2a7d57e1eeecebdca94b90f781e1d2a09c59949d5cfcd905565",
+          "sha256": "9bf32757330fb489c68e93d234ddc45a525bf9f0f518777ae14c18a38eeebe3f",
+          "sha1": "64675d08818a70804d7ef5a94a2de11cf8325362",
+          "md5": "61673db48df6de80985bf466f147af2f"
+        }
+      ]
+    }
+  ]
+}

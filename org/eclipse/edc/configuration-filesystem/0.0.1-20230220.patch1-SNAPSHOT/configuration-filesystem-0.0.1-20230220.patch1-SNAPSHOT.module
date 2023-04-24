@@ -1,0 +1,209 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "configuration-filesystem",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configuration-filesystem-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "configuration-filesystem-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 18383,
+          "sha512": "a301e2332378debaf92be83ed44de1efa9a9ff3ab5ee40885312ebdb573258ab3224cdaee39fab1dbb859dc89879cc41d0a88aa1613675d2f0f4caa940ce94f3",
+          "sha256": "0fb8df6e558d2628a58ca8581b5d0f43eb6467f641674ffd18608e2af00c0e80",
+          "sha1": "51df87cb06ebc7660cc484642bd013406b2da51b",
+          "md5": "bdaf0edb5c3a87a8c1782d9ef9ad4b48"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configuration-filesystem-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "configuration-filesystem-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 18383,
+          "sha512": "a301e2332378debaf92be83ed44de1efa9a9ff3ab5ee40885312ebdb573258ab3224cdaee39fab1dbb859dc89879cc41d0a88aa1613675d2f0f4caa940ce94f3",
+          "sha256": "0fb8df6e558d2628a58ca8581b5d0f43eb6467f641674ffd18608e2af00c0e80",
+          "sha1": "51df87cb06ebc7660cc484642bd013406b2da51b",
+          "md5": "bdaf0edb5c3a87a8c1782d9ef9ad4b48"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "configuration-filesystem-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "configuration-filesystem-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "64f08b25d527b0993e76f5fca213b38e14da8cfd05bdd2af298f80c5942373cd356d0a329c1a2861530440284e45fb2d52c6b1a82caa66b7585bd9cafd2e208e",
+          "sha256": "9d0d0ccb42f0ce184e4adcc1760ee90a481120bbada96473ad6d05ec26cfc7f8",
+          "sha1": "c5418850f2bc454a675c2b7ec84cc347ed674bc4",
+          "md5": "cffe79c1928d8e1aeaf43c038efc4f78"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "configuration-filesystem-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "configuration-filesystem-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 2625,
+          "sha512": "a87464d0833f46bdee05a346035bd1b2593205088ae5ec75ce44d668a5abc756d8089a38663ed74cf8aa6bbe38259e3751ba89adc97e6214fcffb3a2434ef7b0",
+          "sha256": "822afdd95a5f6a4646eff13a7067b68d8abf44b42ffdb7bcff14100096418fe3",
+          "sha1": "d16c9d9512a7faa82d7b6540be9524ca8f7b89b0",
+          "md5": "b47cc4a3b2f5751b41aef6e0beb9dc0f"
+        }
+      ]
+    }
+  ]
+}
