@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "events-cloud-http",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "http-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "events-cloud-http-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "events-cloud-http-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 20899,
+          "sha512": "560efcfbfdb171cab28c51acef8094d96110978dfe81a3b32b87ba62714a2345be54462fadb0e18d374058aad57694e32eb166959c250a36a6ac7d41ea9d37c8",
+          "sha256": "a5351567a21b06b72e6723ac67ff49025c37cf73c9093cf126f941fe4b8c912b",
+          "sha1": "a11f87b341b782f1093f47334ade0fff61466b39",
+          "md5": "039ea67ae48ea0bd2cc1c34d547b932a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.cloudevents",
+          "module": "cloudevents-http-basic",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "dev.failsafe",
+          "module": "failsafe",
+          "version": {
+            "requires": "3.2.4"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "http-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "events-cloud-http-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "events-cloud-http-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 20899,
+          "sha512": "560efcfbfdb171cab28c51acef8094d96110978dfe81a3b32b87ba62714a2345be54462fadb0e18d374058aad57694e32eb166959c250a36a6ac7d41ea9d37c8",
+          "sha256": "a5351567a21b06b72e6723ac67ff49025c37cf73c9093cf126f941fe4b8c912b",
+          "sha1": "a11f87b341b782f1093f47334ade0fff61466b39",
+          "md5": "039ea67ae48ea0bd2cc1c34d547b932a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "events-cloud-http-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "events-cloud-http-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "42937be27f9c126e2c4ab76ec14333b46a7a5b678498b5b8e49e4680d3ab5a9711021945fe87e1f97d75d2f3587a8d98d5cad3efd7c523365d78c5807409ab4a",
+          "sha256": "8a3df7dc273b235a4f0ee67e227d49dee90edbdbb246130b4863754079f50ffa",
+          "sha1": "f2041bcd1eb4602ed9e4e2694b1b994c8fd2a3ce",
+          "md5": "0b83d0162008e88b864f4908b5fa6ca3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "events-cloud-http-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "events-cloud-http-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 3895,
+          "sha512": "5195c0ccbbdfefa2433d60aaa4211658b3694bbe5b90396fe104894f39a6e605a261f3af2a84a4c3eae0dac806dc4e4ff88368de96d17fd4bcac8817c99c9562",
+          "sha256": "29080ebf1c7526bd9ec8b36c94f6533d1576407ffed2f7909a283cb138f574c4",
+          "sha1": "4a849345878be32af83a5314a4a2b8646d9aa10d",
+          "md5": "425300c7aec5c8028c1623ad63b306e5"
+        }
+      ]
+    }
+  ]
+}

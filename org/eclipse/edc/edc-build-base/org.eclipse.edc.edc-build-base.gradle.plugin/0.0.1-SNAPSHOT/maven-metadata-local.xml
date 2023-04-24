@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.eclipse.edc.edc-build-base</groupId>
+  <artifactId>org.eclipse.edc.edc-build-base.gradle.plugin</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20230424063219</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-SNAPSHOT</value>
+        <updated>20230424063219</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom.asc</extension>
+        <value>0.0.1-SNAPSHOT</value>
+        <updated>20230424063219</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "edc-versions",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "edc-versions-0.0.1-SNAPSHOT.toml",
+          "url": "edc-versions-0.0.1-SNAPSHOT.toml",
+          "size": 1738,
+          "sha512": "a951a9b80f06821553be9055da360ef88ad66ffb779f9bed61c4b4c266582410c5ac5e9c5101beb88195202d40a735558d9b398dd915308bfe9af89a4a3b28a8",
+          "sha256": "52e8f6943b9ab2b11a8824d8317c6534a54ee4350134bc9dcea3ebcbf757b99d",
+          "sha1": "bd88d71f16ffa5d0a29d7221a18e58725e2d3c08",
+          "md5": "bb642ac3698c92fd5bb6c7d9322dfdd5"
+        }
+      ]
+    }
+  ]
+}
