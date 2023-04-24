@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.eclipse.edc.test-summary</groupId>
+  <artifactId>org.eclipse.edc.test-summary.gradle.plugin</artifactId>
+  <versioning>
+    <latest>0.0.1-SNAPSHOT</latest>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230424063228</lastUpdated>
+  </versioning>
+</metadata>

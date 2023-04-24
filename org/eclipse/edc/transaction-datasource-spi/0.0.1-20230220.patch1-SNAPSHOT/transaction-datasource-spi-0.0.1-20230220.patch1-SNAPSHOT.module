@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "transaction-datasource-spi",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transaction-datasource-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "transaction-datasource-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 17972,
+          "sha512": "498fc097db3604f88c7e5cae52d682b4cd28303fd4ed682e132270a61da116c992641376bda3af4aecf600b4bbdd3120e370504aeccaeb128a663311dbae2365",
+          "sha256": "2793556194928a075f62c563858c9e45326c9bb85b24effadb2e1cf16c272eac",
+          "sha1": "9afead4313093e71c840d543f8814a1c8827cc8d",
+          "md5": "5e7a733e94897a3c2865bd2d42da85e8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transaction-datasource-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "transaction-datasource-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 17972,
+          "sha512": "498fc097db3604f88c7e5cae52d682b4cd28303fd4ed682e132270a61da116c992641376bda3af4aecf600b4bbdd3120e370504aeccaeb128a663311dbae2365",
+          "sha256": "2793556194928a075f62c563858c9e45326c9bb85b24effadb2e1cf16c272eac",
+          "sha1": "9afead4313093e71c840d543f8814a1c8827cc8d",
+          "md5": "5e7a733e94897a3c2865bd2d42da85e8"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transaction-datasource-spi-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "transaction-datasource-spi-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "b341b903176a4436a6538f79c2181e3ef1233d69f075bcdeeb21d6be144da6a7ea2ef7fb7f14bab0c417815ad81fd016bb5d58dbc9b041d08066bbe2dfa7d54f",
+          "sha256": "1c902be5c1a7fcae427e9a2dd5782ce646273fc7ffce428066955cb8ef3f2d54",
+          "sha1": "3834a16d7f9c602c8e1ada791dd9974c3f0c810a",
+          "md5": "ec631c0d5da152b4cf07ccdb1f6d7252"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transaction-datasource-spi-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "transaction-datasource-spi-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 2960,
+          "sha512": "4eddf46b97ca72f2f7c5b64437e982aacbb448936a7ac0e8cd3ee922501f634cc3e4d396e826e83f02363b852b41e92996e1912acc3b78efe4d7c88bdf40be84",
+          "sha256": "05218b43a69bd28a27fb979264f09acdae5ea76561d383f461ee4e07b53820a9",
+          "sha1": "38083fa4adb156e7019b28051ff89e8aa16f2c38",
+          "md5": "c7b790055e1e8d4d97a14acf4b3423d8"
+        }
+      ]
+    }
+  ]
+}

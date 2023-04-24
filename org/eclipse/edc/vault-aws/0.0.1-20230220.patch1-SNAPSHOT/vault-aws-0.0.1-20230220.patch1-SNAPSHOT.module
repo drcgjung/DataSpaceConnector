@@ -1,0 +1,216 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "vault-aws",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vault-aws-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "vault-aws-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 22115,
+          "sha512": "b9981014237095bcf9100abc32c23bf951c915cdfca4363de8355a735cbce0334eec72be5c80b72402bf0503764119e349f7b250fb583a171ee74e304c337f51",
+          "sha256": "00aef903c74f86d79fe624f810cf1576ba4e89ecf8a363b30a09b8701e937064",
+          "sha1": "d3e6eeccef0500019fc81b77c62d476eea65b159",
+          "md5": "ccce6c4cec8f80a8efb868b499ab7d05"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awssdk",
+          "module": "secretsmanager",
+          "version": {
+            "requires": "2.19.26"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vault-aws-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "vault-aws-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 22115,
+          "sha512": "b9981014237095bcf9100abc32c23bf951c915cdfca4363de8355a735cbce0334eec72be5c80b72402bf0503764119e349f7b250fb583a171ee74e304c337f51",
+          "sha256": "00aef903c74f86d79fe624f810cf1576ba4e89ecf8a363b30a09b8701e937064",
+          "sha1": "d3e6eeccef0500019fc81b77c62d476eea65b159",
+          "md5": "ccce6c4cec8f80a8efb868b499ab7d05"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vault-aws-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "vault-aws-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "ca988285abf5e1e7844ec48712d76e3b3d495a4a37513c19aa067c3e6acd3d5c4d0387af5f60836ebe59e43d36aedf49ce9ff60e7200a805550126314fb07665",
+          "sha256": "85d8822bca8f004e62cd4b4040a36329b1654f99a7734fbfa0a531f3ad043f54",
+          "sha1": "3ab20e2c3f7bb3d290901aa294c0a08f1bbc7ba5",
+          "md5": "10a66cfffc1b93d3484b7d43fe754a90"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vault-aws-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "vault-aws-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 5816,
+          "sha512": "8af083e4836052aa51a62769fe4e2ff9437b6434a63fc25b47a40e6696447d210aab9dbf88220db495ac7db2debae1be9830569ab7dca9d6777a88bdec93d35a",
+          "sha256": "23578ebcdb2d2794f9374798947424c690398c15d765738eab26bebe8c857e38",
+          "sha1": "ad5524d9775cb99e0c7d5564105ecf9c147798c4",
+          "md5": "21a89d66cf2963114233d767b2249f0b"
+        }
+      ]
+    }
+  ]
+}

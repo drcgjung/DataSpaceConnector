@@ -1,0 +1,265 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "transfer-process-store-sql",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-process-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "transfer-process-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 37810,
+          "sha512": "d7eeef855b4def54af683240e70dab12e2ee81b3663dba22ae1df96290978a8264ba8f16c0c6717224f55475dc3c19b79cc70d85e6551a395dafe9fe90195098",
+          "sha256": "3e75da85cd454c1dd964da0e562441c0dc05d0a5a1c8215bd0d782d9544eb7c1",
+          "sha1": "41d2db7b67cc200115d8da5500891abce8b3329b",
+          "md5": "253c3fc7252b0417532b495da04ae525"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-datasource-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "sql-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "sql-lease",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-process-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "transfer-process-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 37810,
+          "sha512": "d7eeef855b4def54af683240e70dab12e2ee81b3663dba22ae1df96290978a8264ba8f16c0c6717224f55475dc3c19b79cc70d85e6551a395dafe9fe90195098",
+          "sha256": "3e75da85cd454c1dd964da0e562441c0dc05d0a5a1c8215bd0d782d9544eb7c1",
+          "sha1": "41d2db7b67cc200115d8da5500891abce8b3329b",
+          "md5": "253c3fc7252b0417532b495da04ae525"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transfer-process-store-sql-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "transfer-process-store-sql-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "86d31ed2c977c4aa56d370735fcde88b418cf270b7a6c997d904964a5f00f8ef2f55af60e999bf78e12237eb244fabc8de6d1eb471d1e2b23c277a5d79301ff1",
+          "sha256": "fe1a783e7c874ec51468c0737a240ae79ce92b32896c880c2d2033133f23de6e",
+          "sha1": "e16aa46a8cc6819756a122a24d97701a9312b8e5",
+          "md5": "c645f74f0f7257a23db7b47692a59cbf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transfer-process-store-sql-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "transfer-process-store-sql-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 14831,
+          "sha512": "89edaf0e5cec8e18292769787259c27939ad9d0aa0dc740eb92c9a05eaef95c01a3bfaed67ef4102518a93593b88ffc94f6ef5990392129748b31ff856f0f801",
+          "sha256": "1a28a2b89ef2c78a88d3e6b5caad3904de560a8054111aa3262b879340e7dccd",
+          "sha1": "9a22c9870e6737bf120b4265d91810d912b398a3",
+          "md5": "da4e8b1cfa8ff1723c4df472e9314efe"
+        }
+      ]
+    }
+  ]
+}

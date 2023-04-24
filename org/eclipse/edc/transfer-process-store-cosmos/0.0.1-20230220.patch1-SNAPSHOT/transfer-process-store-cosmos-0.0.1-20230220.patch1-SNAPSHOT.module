@@ -1,0 +1,251 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "transfer-process-store-cosmos",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-cosmos-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-process-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "transfer-process-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 27512,
+          "sha512": "3356ab27a92ef312357b354657ea56de8574458124d76a89e2c4da510f9f1ed36bde42983fd3e7b77d8b93676da68042d540d32b94e13fb4fc6ef2a6450df469",
+          "sha256": "a8ab26969a76f0d12ca874cd1a3cb6d8e5e5c238318f7ba9332c394527109b4f",
+          "sha1": "613735e3c33c4c39e8670ed5aff4fa6ea7f076e1",
+          "md5": "adc548282a856d47bd89d549f075fee8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.azure",
+          "module": "azure-cosmos",
+          "version": {
+            "requires": "4.37.0"
+          }
+        },
+        {
+          "group": "dev.failsafe",
+          "module": "failsafe",
+          "version": {
+            "requires": "3.2.4"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-cosmos-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-process-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "transfer-process-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 27512,
+          "sha512": "3356ab27a92ef312357b354657ea56de8574458124d76a89e2c4da510f9f1ed36bde42983fd3e7b77d8b93676da68042d540d32b94e13fb4fc6ef2a6450df469",
+          "sha256": "a8ab26969a76f0d12ca874cd1a3cb6d8e5e5c238318f7ba9332c394527109b4f",
+          "sha1": "613735e3c33c4c39e8670ed5aff4fa6ea7f076e1",
+          "md5": "adc548282a856d47bd89d549f075fee8"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transfer-process-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "transfer-process-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "7019f99caa1ba87f252a5122c0a39edade7ad59370496afbf132d9bcc5062b094f72fb59d08ab1dfc56610508a8adf14c1a70998093e9159c00fa77b308ec7d8",
+          "sha256": "8fa80080dc4d681ed884a5fd52e1dda252d2422657cde96c09382256720e39a2",
+          "sha1": "63750e7f33b1a054833070f358c1fbc889c62359",
+          "md5": "bc968777ac42e49f3799943a627aada1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transfer-process-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "transfer-process-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 8475,
+          "sha512": "dc673fb54a45a4949e1eebddab5633cfd104d49662b5d279a9dcc0d1f941b31eb4bdd28e24bf26188b6a1c0ed4e8e1f24ef2d50a28eaa8212bf876333e193910",
+          "sha256": "27daebcd7af724221cf9ee8ac1b7c70594fe820c9d003e0a400c58ac6d4890e9",
+          "sha1": "157c0a2a0d9cef0d9bf4a3a2a50aadca0c0edf94",
+          "md5": "f1dea75464cd107da3595a378d7ab098"
+        }
+      ]
+    }
+  ]
+}

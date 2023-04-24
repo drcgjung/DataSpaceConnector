@@ -1,0 +1,598 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "transfer-data-plane",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "web-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-client",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-selector-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.1.0"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.nimbusds",
+          "module": "nimbus-jose-jwt",
+          "version": {
+            "requires": "9.25"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk18on",
+          "version": {
+            "requires": "1.72"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-data-plane-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "transfer-data-plane-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 46979,
+          "sha512": "701b401e53d3a47ea5739fe15199d7d16a4e03544c99ab1e82da6381294d25be2eed3476eb2b021868ee56d05df897b1aa5ea1c577154f233165e38d0a070f20",
+          "sha256": "172c8aaef334587d44b934f6991c2a75e9e08abc7ed9471ccc1ed7959fb924c4",
+          "sha1": "733ffcd984dc53ef00c22366f4446bfde96b58e5",
+          "md5": "bb0beabc638dd44bdbb44ecd3ae6b9d0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "control-api-configuration",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "jwt-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-jaxrs2-jakarta",
+          "version": {
+            "requires": "2.2.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.1.0"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "contract-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "web-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-client",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-selector-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.1.0"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.nimbusds",
+          "module": "nimbus-jose-jwt",
+          "version": {
+            "requires": "9.25"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk18on",
+          "version": {
+            "requires": "1.72"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.fasterxml.jackson.jaxrs",
+              "module": "jackson-jaxrs-json-provider"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-data-plane-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "transfer-data-plane-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 46979,
+          "sha512": "701b401e53d3a47ea5739fe15199d7d16a4e03544c99ab1e82da6381294d25be2eed3476eb2b021868ee56d05df897b1aa5ea1c577154f233165e38d0a070f20",
+          "sha256": "172c8aaef334587d44b934f6991c2a75e9e08abc7ed9471ccc1ed7959fb924c4",
+          "sha1": "733ffcd984dc53ef00c22366f4446bfde96b58e5",
+          "md5": "bb0beabc638dd44bdbb44ecd3ae6b9d0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transfer-data-plane-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "transfer-data-plane-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "8de9a5a861c92f82b9d2166101927bdca259f2eba916abe1ded6715d42cf60a11b84d921e4306591391d53a4ecc69d868830ca624bd6a866e88008aa745ad3cc",
+          "sha256": "0aa6c31c588e7014eec478c95519a27cd3c992b39f937d92989c1b47f1f397ea",
+          "sha1": "a8de9768c18d690a4e07ca6325ffe81fae659a2d",
+          "md5": "4ebcbf5b88a14c7c4a30bc66ea8c93c8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transfer-data-plane-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "transfer-data-plane-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 24029,
+          "sha512": "131a759622eaf8df04148f531e9678d4db53a9f1cf2930160cbaf849a3906fe3e59356651043d9643038d0c0e73981552059604b3f154c8307f3254b0e29f761",
+          "sha256": "4356a49d0c40b79d9b1509d57c68a1485853b88c3909097492b142975ce18607",
+          "sha1": "043b27d3ae5119e5463c9f6162be8d26f8f31ab7",
+          "md5": "14295157c58f65716897cbde58a6172d"
+        }
+      ]
+    }
+  ]
+}

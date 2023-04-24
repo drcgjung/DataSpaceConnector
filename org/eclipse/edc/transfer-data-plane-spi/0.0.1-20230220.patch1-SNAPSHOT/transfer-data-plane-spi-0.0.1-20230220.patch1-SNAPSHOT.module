@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "transfer-data-plane-spi",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-data-plane-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "transfer-data-plane-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 21886,
+          "sha512": "05c1f81197ba74604bb0a8ed25108a439e10adba39e3cc8c62d6a27c06945e48e10236eb9a5ad6239915aeb05c94f42218e70a5ccc1ca1e704e3f5f246c46270",
+          "sha256": "750d4e6ad0d37cea0bb606e02dfc3b8cc8c453190c75ef8980112224fafde6d0",
+          "sha1": "5f3ec59bd09a682d96fbc7e595c89ee4d04fd5db",
+          "md5": "d3384d1ead44a8c62bc4247ac52cc314"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-data-plane-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "transfer-data-plane-spi-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 21886,
+          "sha512": "05c1f81197ba74604bb0a8ed25108a439e10adba39e3cc8c62d6a27c06945e48e10236eb9a5ad6239915aeb05c94f42218e70a5ccc1ca1e704e3f5f246c46270",
+          "sha256": "750d4e6ad0d37cea0bb606e02dfc3b8cc8c453190c75ef8980112224fafde6d0",
+          "sha1": "5f3ec59bd09a682d96fbc7e595c89ee4d04fd5db",
+          "md5": "d3384d1ead44a8c62bc4247ac52cc314"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transfer-data-plane-spi-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "transfer-data-plane-spi-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "0320bc1d5cb6a0aac59e265413e828de91021d7114507a92e8cc96723126cb38f86df9f4de6b1cfec081ec9678fb5cf6d267bc38b2972ca8a9ed420edaa0b56e",
+          "sha256": "40e2b004eb790ff76b9c4df6a27e967a21dd34d5b7387e6073574c87f153d2bb",
+          "sha1": "21a978e6414203fec42826529ed16a51c13ad80a",
+          "md5": "aad117108adeabc9be073bcb7fec8274"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transfer-data-plane-spi-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "transfer-data-plane-spi-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 6196,
+          "sha512": "f00f62803bcdc425847722f4b5de2f5982b79e5aaf963f3b177943613c57b2aaae518081c149a2ab571f6682b98e8235c960ad3f64ceec91585000a2b3471ea5",
+          "sha256": "cdb7351bb1d3cdadf297a3734b3f2e32103ef5d1f30200f615699c4204aec5a6",
+          "sha1": "4b5f073cb60c9f3550a92d7c85749cc79ecca558",
+          "md5": "680470cb538f9f98380bbcff87ca8985"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "transfer-pull-http-dynamic-receiver",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-pull-http-dynamic-receiver-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "transfer-pull-http-dynamic-receiver-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 23140,
+          "sha512": "999a21dbac94deab3c5d46c99908a5bca0bb42e8d603816cf90a1643aa78f2e9095bd31e8d21da986faa0545c76318823c03412ec6ff3a53ee2f9be60e015df0",
+          "sha256": "6000921b431b477d8f867c8c17edd6be69d5aa05dbe31a60f79cabee2978ab8a",
+          "sha1": "f384cbafdccf1bb6d4a647e1e292ba80962d287e",
+          "md5": "86ba4b8f407eac1b8abd0dbe32f64f1c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "dev.failsafe",
+          "module": "failsafe",
+          "version": {
+            "requires": "3.2.4"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-pull-http-dynamic-receiver-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "transfer-pull-http-dynamic-receiver-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 23140,
+          "sha512": "999a21dbac94deab3c5d46c99908a5bca0bb42e8d603816cf90a1643aa78f2e9095bd31e8d21da986faa0545c76318823c03412ec6ff3a53ee2f9be60e015df0",
+          "sha256": "6000921b431b477d8f867c8c17edd6be69d5aa05dbe31a60f79cabee2978ab8a",
+          "sha1": "f384cbafdccf1bb6d4a647e1e292ba80962d287e",
+          "md5": "86ba4b8f407eac1b8abd0dbe32f64f1c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transfer-pull-http-dynamic-receiver-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "transfer-pull-http-dynamic-receiver-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "e166bda9e0c48138f0375f391c1c4bee0197b5f0cc251bd762be79c398bf9a2441a571aef590d3147ed39e2236172d77c2d13907e01e8b61eed5e971714f202d",
+          "sha256": "ec1ec94031522ad218dce83e0b99376c38619ed3fb816ac17d99c733a4fdce4d",
+          "sha1": "b0ac542008cefb3119662710f5de39102f89fef2",
+          "md5": "5534c7fdd41b1429f23610c920b928b0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transfer-pull-http-dynamic-receiver-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "transfer-pull-http-dynamic-receiver-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 4948,
+          "sha512": "fee16ccd8240692b44fa35e6991580bd2d3c4016e127e69707a1c49c928070ccf01380e4b2892ba01203eb04b2cc10b4866c80bab142678f3b5e2e40b254cf6b",
+          "sha256": "f366f8b2acffaa64fda28c604b6fc2db4951a8813606bfe4b7741741d1e2cdfb",
+          "sha1": "54d3d3ace32fbb9e78767e05f0dca9791106ce1e",
+          "md5": "7493ee3db894babbc9df2f493a6e360d"
+        }
+      ]
+    }
+  ]
+}

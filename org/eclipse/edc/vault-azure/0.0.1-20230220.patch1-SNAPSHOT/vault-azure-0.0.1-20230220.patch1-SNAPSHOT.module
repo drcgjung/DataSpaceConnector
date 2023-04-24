@@ -1,0 +1,237 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "vault-azure",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vault-azure-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "vault-azure-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 22008,
+          "sha512": "56a6fc170e4cf5f76675a8ec67cbeb9a4de3d94e36ffd8468ff46660320663b4622b1e8d52c4a122a8b843109e345c1b9653b89a7d7f0420aeaf35f96aa1adae",
+          "sha256": "13b276fe491363e5ef793baf0d66de26ad04951ab3cb989654d7df7639fff5ad",
+          "sha1": "e0236732ae415df05950933b8b6db41463e67b57",
+          "md5": "d1e125e65b6cf117c6bd22df32f75b4e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.azure",
+          "module": "azure-security-keyvault-secrets",
+          "version": {
+            "requires": "4.2.3"
+          }
+        },
+        {
+          "group": "com.azure",
+          "module": "azure-identity",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vault-azure-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "vault-azure-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 22008,
+          "sha512": "56a6fc170e4cf5f76675a8ec67cbeb9a4de3d94e36ffd8468ff46660320663b4622b1e8d52c4a122a8b843109e345c1b9653b89a7d7f0420aeaf35f96aa1adae",
+          "sha256": "13b276fe491363e5ef793baf0d66de26ad04951ab3cb989654d7df7639fff5ad",
+          "sha1": "e0236732ae415df05950933b8b6db41463e67b57",
+          "md5": "d1e125e65b6cf117c6bd22df32f75b4e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vault-azure-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "vault-azure-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "47da44ee5fe9904164f2dbe1cb272cf7307debe3288073041dea5f7ca182246191dd82178e3fe3b20ec7643d4cf96dd6951d307bdbf1e6ee128dae2adff48aa9",
+          "sha256": "2e019dbd7736153f6c2288d98a2dadba04818603fa347439194df7fdbd56b8fc",
+          "sha1": "5aabb48e67a162989ef5c87922fc06500879017a",
+          "md5": "212c13e6341d4da6690be4dd661614bb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vault-azure-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "vault-azure-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 4723,
+          "sha512": "0d57f20cded6cccde84c041629577ea54a92fa5d1bcc7b8cb361b206db10ce95abd5942159f7f0cc79c4d7c6b687fc1ee7cbc8473f096579dfebe59a8be5a30c",
+          "sha256": "0ec460f658c735589fea8f89b68dfed6d88f4eaa33f5b0ec2380417c859bf61b",
+          "sha1": "322fd240a30784edaee9d1a5cf5d36d5611a10c5",
+          "md5": "40fd43b4c95c5c12a7af40e15785300e"
+        }
+      ]
+    }
+  ]
+}

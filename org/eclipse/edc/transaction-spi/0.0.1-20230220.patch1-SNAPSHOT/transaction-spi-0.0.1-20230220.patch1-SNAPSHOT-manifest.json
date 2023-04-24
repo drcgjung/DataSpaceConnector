@@ -1,0 +1,1 @@
+[{"categories":[""],"extensions":[],"extensionPoints":[{"service":"org.eclipse.edc.transaction.spi.TransactionContext"}],"modulePath":"org.eclipse.edc:transaction-spi","version":"0.0.1-20230220.patch1-SNAPSHOT","name":"Transactional context services"}]

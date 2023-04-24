@@ -1,0 +1,237 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "transfer-core",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "policy-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "transfer-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 62325,
+          "sha512": "12b5ddbd09295dea6e58100562bf32943c61c8f74c5d36bde42b96622d3e7580b207b4ac2e599e169e340296f925d124056d3cbd07b7e170df52739938d8fc21",
+          "sha256": "f96536130c8464dafcd8e0d8cb09d9d6dd8ccf17f0d527a86828bc7607dc9e4a",
+          "sha1": "51088387395844e4d07a96f96771f19d74455371",
+          "md5": "f7b600700cadb7bdd8b09a5bef291437"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "state-machine",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-extension-annotations",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "policy-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transfer-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transfer-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "transfer-core-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 62325,
+          "sha512": "12b5ddbd09295dea6e58100562bf32943c61c8f74c5d36bde42b96622d3e7580b207b4ac2e599e169e340296f925d124056d3cbd07b7e170df52739938d8fc21",
+          "sha256": "f96536130c8464dafcd8e0d8cb09d9d6dd8ccf17f0d527a86828bc7607dc9e4a",
+          "sha1": "51088387395844e4d07a96f96771f19d74455371",
+          "md5": "f7b600700cadb7bdd8b09a5bef291437"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transfer-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "transfer-core-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 379245,
+          "sha512": "636fc2f157914d8fc0c80d970a944c85d1693d7c17ca73f1bc324d7640dc06d0d8dc930f928e02d73517f03edfeacb5df3989bad1c21716e58c04433e1bd16dd",
+          "sha256": "672ecc70a899811daa4c53ad5ea99b615be1d7d381b217647e5a18b093703472",
+          "sha1": "3569c861a1a6637b82779bdc88d794a5ecb29d95",
+          "md5": "e55c89610c0c2a2ce3a0d1f2b972a7c5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transfer-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "transfer-core-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 29031,
+          "sha512": "ba77650104a66798bd1704a4febe2986cc732aec2ba179308feecb2f06658a904c77deee02dd189418f6eac54f7e73f8a890be06a33220ddf78157c31aa0c8e6",
+          "sha256": "26a79a8e97c5f181e1a205c5065272758d656ac90de9c3f671ebb9e0296f62f8",
+          "sha1": "9c3b2ad166b707a81eaef9b60ad6f00da7b6fdb0",
+          "md5": "eff1ecf7e755df3334e99194508c0403"
+        }
+      ]
+    }
+  ]
+}

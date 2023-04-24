@@ -1,0 +1,216 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "vault-filesystem",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vault-filesystem-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "vault-filesystem-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 25368,
+          "sha512": "264b68c1fd3b9de80f1dde73d094d93430b0a1997ae0e9e89cb07897450dd2c920c6b5d0e8b30bd6827d75f3e34330fabde13435929ce8b34abefd6c5a8bd667",
+          "sha256": "795bb546f17e98026c6408672757f7a70f277695d80456bf7d25a1b0ebfcab92",
+          "sha1": "e4ab4b257b67e3a93b84f280cc052a5db2b13e6d",
+          "md5": "09add3ab7047064bc73f611e74e2b5ef"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk18on",
+          "version": {
+            "requires": "1.72"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "core-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vault-filesystem-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "vault-filesystem-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 25368,
+          "sha512": "264b68c1fd3b9de80f1dde73d094d93430b0a1997ae0e9e89cb07897450dd2c920c6b5d0e8b30bd6827d75f3e34330fabde13435929ce8b34abefd6c5a8bd667",
+          "sha256": "795bb546f17e98026c6408672757f7a70f277695d80456bf7d25a1b0ebfcab92",
+          "sha1": "e4ab4b257b67e3a93b84f280cc052a5db2b13e6d",
+          "md5": "09add3ab7047064bc73f611e74e2b5ef"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vault-filesystem-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "vault-filesystem-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "e202a81a5c68b29f74f9df0500cf4db152dd68f4075bafec6183f85e19df49755789e61e10c868089a49ac35093ebf289f3151f52691dab704f52c3b90f4f3cb",
+          "sha256": "9a033d0743d6c0a5bb8090e1a1e724fe044f11795ce7ffd3df54e6b8b2ad9489",
+          "sha1": "be1eddce561629649749a1fad329af215f2c264a",
+          "md5": "7c35ee9d4000c01eaf7c442c23a7460f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vault-filesystem-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "vault-filesystem-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 6774,
+          "sha512": "7582ae7a529a628e41d693b816a203205e9b92a5cbe68ced29d31b81cd4be7a727fd9981f28646cf3f13c81a3d39b699aedf619598139f76de0c7254ef3eb036",
+          "sha256": "f47bb012dbd3d1da4038795feaa09dccc93ae58e73779d310d08fc1eabe61b24",
+          "sha1": "36b0e1a5edee871eab51274cfa0012ce60cc62c2",
+          "md5": "b1142ff16c2bda2e643ad3292c3d3912"
+        }
+      ]
+    }
+  ]
+}
