@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "ids-jsonld-serdes",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ids-jsonld-serdes-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "ids-jsonld-serdes-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 32587,
+          "sha512": "43d934c0853717c776a0eb9c3d7f1c9c989fb8344fbb6fda4e73b272edefcb865a3496d763125b61574af49133c75eaeb65d8e9c6144fabb75144404d0b90995",
+          "sha256": "1b71597cce2609c492cc7fc49bb0e17f7df10ccf1013adbfbef6788c602b3db8",
+          "sha1": "7fce7eb23db8b4b54c7637f26811b17075d9e1eb",
+          "md5": "cb567602fa52474e30f3aaab6b7aa3a1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ids-jsonld-serdes-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "ids-jsonld-serdes-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 32587,
+          "sha512": "43d934c0853717c776a0eb9c3d7f1c9c989fb8344fbb6fda4e73b272edefcb865a3496d763125b61574af49133c75eaeb65d8e9c6144fabb75144404d0b90995",
+          "sha256": "1b71597cce2609c492cc7fc49bb0e17f7df10ccf1013adbfbef6788c602b3db8",
+          "sha1": "7fce7eb23db8b4b54c7637f26811b17075d9e1eb",
+          "md5": "cb567602fa52474e30f3aaab6b7aa3a1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ids-jsonld-serdes-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "ids-jsonld-serdes-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 340329,
+          "sha512": "95cc249e2b4cf7fbcaaf082c09f6bde8b1472a5078141b9d23efe5369442fad6f742b9a99ac5f7abd8f545443d61ba0492e4829f352b9cbfbbf673664cb061c1",
+          "sha256": "d26bbb9cd3788d5c0ee8dc6f22076262cdd9101f3c060ffdfb987dc42384d47d",
+          "sha1": "7a28c2a8c82ab18a07b8840a6f9dbdd2e68a4da4",
+          "md5": "0f4a2336370ea00e8269e76850d27f30"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ids-jsonld-serdes-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "ids-jsonld-serdes-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 14070,
+          "sha512": "aef77894408e46b2b50f24056f9ca56a050df55c0d5b721a4b3ff047d2bbea4d8df678bba5f5a8c58a06cd9cab21749cf338e523e5c474e9aa3665fb61e59aa2",
+          "sha256": "4b8ea041d1c0524566a6a495caccd896343c7d4dec38d4242ef1283a8988e70b",
+          "sha1": "44e426ba8b28341b48f3964e91e3cd9134819bc6",
+          "md5": "a1a0e9e64ad8b3b3677d08880373e555"
+        }
+      ]
+    }
+  ]
+}

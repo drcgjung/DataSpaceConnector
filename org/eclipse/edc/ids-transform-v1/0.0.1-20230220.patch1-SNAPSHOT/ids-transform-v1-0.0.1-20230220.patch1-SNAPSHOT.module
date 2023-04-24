@@ -1,0 +1,258 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "ids-transform-v1",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "control-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "ids-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "ids-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "de.fraunhofer.iais.eis.ids.infomodel",
+          "module": "java",
+          "version": {
+            "requires": "4.1.3"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ids-transform-v1-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "ids-transform-v1-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 88161,
+          "sha512": "d66f3f4f99f741694b3bcb1d17b04c2eadca7fae8a7792e445b41cca06fd6157c3fc66f54faa9b3ff738ebede8900d9d57e08a1bd991613a0c05c9384ee5890d",
+          "sha256": "3ba304cc46f9226c60dd5fa430c3ffcb842e451db7244c896dcab67bd9a24fe6",
+          "sha1": "1d5c5dace78a77fb057e170092080e15ecb4e8a9",
+          "md5": "67e7e7f6dfb58759c6778295bf2280e1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "util",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "control-plane-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "ids-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "ids-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "de.fraunhofer.iais.eis.ids.infomodel",
+          "module": "java",
+          "version": {
+            "requires": "4.1.3"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ids-transform-v1-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "ids-transform-v1-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 88161,
+          "sha512": "d66f3f4f99f741694b3bcb1d17b04c2eadca7fae8a7792e445b41cca06fd6157c3fc66f54faa9b3ff738ebede8900d9d57e08a1bd991613a0c05c9384ee5890d",
+          "sha256": "3ba304cc46f9226c60dd5fa430c3ffcb842e451db7244c896dcab67bd9a24fe6",
+          "sha1": "1d5c5dace78a77fb057e170092080e15ecb4e8a9",
+          "md5": "67e7e7f6dfb58759c6778295bf2280e1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ids-transform-v1-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "ids-transform-v1-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 407808,
+          "sha512": "7d0d12d8872445db320fe844bf264c1624e47240eedc2b01e3e54abf1560d4c41008a45b9f075b735a97e23ce2a0f2ddf31e5262173520d41f60b84677a76b17",
+          "sha256": "11d4e1ea516e77578e784e0bbb5b7ecc940161ea7a398fb87139cab30b761735",
+          "sha1": "a5d3b94257cad0ce15afe51766bdf4521f2f78c5",
+          "md5": "11bd2f4e44da8ac82953cb63fa33eae1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ids-transform-v1-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "ids-transform-v1-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 43986,
+          "sha512": "5f28de2253262b513139db516898b934e304731901e1e4946f151fe9592d0de2c6700ebf5014422dba990505dd60c4ac12578b43269739bdebc9abe9ea9356dd",
+          "sha256": "ed3252ddbdfcfe15316f4d63d281b69583c4f337d27cf570304d54d2720774eb",
+          "sha1": "cc83669c62c37386c36d3d40b92a80f1cbcce32c",
+          "md5": "7ffa5d261af64803827bd0a8347aff5c"
+        }
+      ]
+    }
+  ]
+}
