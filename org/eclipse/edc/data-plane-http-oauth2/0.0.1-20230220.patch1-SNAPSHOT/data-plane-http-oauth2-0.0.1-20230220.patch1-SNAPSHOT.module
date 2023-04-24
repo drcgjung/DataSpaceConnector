@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "data-plane-http-oauth2",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-http-oauth2-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-http-oauth2-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 15548,
+          "sha512": "b671925da496eb9b823006fe9952880a7895f518ee8e99decd24763d997d60fedc4706417f5af4f03fb902ccc4d6c6632307f327f7d82220f80dcb24fff0c14a",
+          "sha256": "a2d7cf93f98f377d2fd85d29ee28cea58b6c55e257510cc00be20e56eef9d265",
+          "sha1": "8aa4db8d7953a0512e91b60cb4474841e5d79553",
+          "md5": "32420dc9a9dbc04cbc68886a401c5704"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "oauth2-client",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-http-oauth2-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-http-oauth2-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-http-oauth2-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 15548,
+          "sha512": "b671925da496eb9b823006fe9952880a7895f518ee8e99decd24763d997d60fedc4706417f5af4f03fb902ccc4d6c6632307f327f7d82220f80dcb24fff0c14a",
+          "sha256": "a2d7cf93f98f377d2fd85d29ee28cea58b6c55e257510cc00be20e56eef9d265",
+          "sha1": "8aa4db8d7953a0512e91b60cb4474841e5d79553",
+          "md5": "32420dc9a9dbc04cbc68886a401c5704"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-http-oauth2-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "data-plane-http-oauth2-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "04f0c96b08bdbc462386f4f8d340bad3c0470705926f977acf2767e00bf3e83b063416056e88944ae6b8d75655d363aa5bd512cf51d4fc4d3cd4b8b68eb6aea6",
+          "sha256": "3b417bcce2e65638ec8d5d0ccc3f4b6967753de9ef04d834b84b23899c2d59de",
+          "sha1": "65bda4435878a5f120f0d47684f9824f5621ec26",
+          "md5": "58fb822f7bf2ec15f76ba9a7a85adb36"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-http-oauth2-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "data-plane-http-oauth2-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 261,
+          "sha512": "9ae8395e579e920b4e39243b25b4eac2ae50bf98e9b14cd0a0d8c171f06a06d0878a361cd4c89162ca7b49ad603c0638865575aa759190acf7e880f9c2a4ccc5",
+          "sha256": "89cc3cb24a5e217b880abbc39e584b810d8e08aa4169db79fb245306655af28f",
+          "sha1": "64febf8b0511e89bfd2918322506ec3f1e470ec8",
+          "md5": "fcc96327839a32a0c5c3e4ef6b930a1a"
+        }
+      ]
+    }
+  ]
+}

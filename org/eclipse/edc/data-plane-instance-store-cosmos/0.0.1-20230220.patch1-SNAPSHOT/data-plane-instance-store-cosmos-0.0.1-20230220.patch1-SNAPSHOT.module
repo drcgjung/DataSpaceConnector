@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "data-plane-instance-store-cosmos",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-selector-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-instance-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-instance-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 22349,
+          "sha512": "362af72aa1cb49efb2fc190b3078f37a8cf1098d73a2337a80af4c7fe06e08c6d5a9ae08d229cddc1296708ec1eadfe56c2ebb1c8b66bba539412cb02d522327",
+          "sha256": "1530d7c3465d56152770adbfde1c27245e2140920e05d47386ab3bce4cffbfc4",
+          "sha1": "bdde9be79fcd15a5d162a0d0ad70f9b90d6484ec",
+          "md5": "4d6aae91904e4ce1fa004ea998c7e8c1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "azure-cosmos-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.azure",
+          "module": "azure-cosmos",
+          "version": {
+            "requires": "4.37.0"
+          }
+        },
+        {
+          "group": "dev.failsafe",
+          "module": "failsafe",
+          "version": {
+            "requires": "3.2.4"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-selector-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-instance-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-instance-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 22349,
+          "sha512": "362af72aa1cb49efb2fc190b3078f37a8cf1098d73a2337a80af4c7fe06e08c6d5a9ae08d229cddc1296708ec1eadfe56c2ebb1c8b66bba539412cb02d522327",
+          "sha256": "1530d7c3465d56152770adbfde1c27245e2140920e05d47386ab3bce4cffbfc4",
+          "sha1": "bdde9be79fcd15a5d162a0d0ad70f9b90d6484ec",
+          "md5": "4d6aae91904e4ce1fa004ea998c7e8c1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-instance-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "data-plane-instance-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "4979c2ca5b969f929cc277991d5e0ce80c0fb6f62a8875441f462d7c2e70909be68a6a493d8f38d1fc9347a6aa74d2c1fe0efb8ac2059417703ee30127863cd6",
+          "sha256": "d382dab51da592849c8d8419022fc6fb9621208aeb39a23457ca167ba549b22d",
+          "sha1": "6a9473b7ce7d94e2d2d77b6c618d6c7f2320094a",
+          "md5": "348f6fca4c268ced364a75d09291f5b3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-instance-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "data-plane-instance-store-cosmos-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 5591,
+          "sha512": "533d8488bc11bdbdba29d84bd84bec56d20ef2c9893cafcc47c78af3896bf13522f197c30dda533a9d65ee83c3217d28fba1e1a68757e5c494322c7cafd36df3",
+          "sha256": "ec88fd46fda29eefc7e80472b5a99ac0f6711de85347bc06272a2e3175b5bd6c",
+          "sha1": "a7a19fdee933f938fd9c7ee8c4bbc865908277b3",
+          "md5": "6e2f3c5653c0c25ea75a30be8eba02ce"
+        }
+      ]
+    }
+  ]
+}

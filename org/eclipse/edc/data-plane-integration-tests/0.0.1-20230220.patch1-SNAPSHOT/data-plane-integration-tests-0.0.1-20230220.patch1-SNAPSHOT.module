@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "data-plane-integration-tests",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-integration-tests-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-integration-tests-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 15548,
+          "sha512": "84c4b9b890ccd5f3db749247594d3d666fedbf1adf9f1e8ffafbbb0f28b8c358a3e8a128ff102f15df00f2d53e543547d424e52c82730fa1aa3638daf5c423eb",
+          "sha256": "1f80570f6a802292afb803f6bee52314b48d58599a90cc8203326c9305884b1f",
+          "sha1": "319fd537eab3627552c19b745a0a5db3e2f2d53d",
+          "md5": "9a57eef6ce81bbdad068037bbd1848c7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-integration-tests-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-integration-tests-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 15548,
+          "sha512": "84c4b9b890ccd5f3db749247594d3d666fedbf1adf9f1e8ffafbbb0f28b8c358a3e8a128ff102f15df00f2d53e543547d424e52c82730fa1aa3638daf5c423eb",
+          "sha256": "1f80570f6a802292afb803f6bee52314b48d58599a90cc8203326c9305884b1f",
+          "sha1": "319fd537eab3627552c19b745a0a5db3e2f2d53d",
+          "md5": "9a57eef6ce81bbdad068037bbd1848c7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-integration-tests-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "data-plane-integration-tests-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "2cc3ed53add9efddbbb5f136cbbf7204c611cc1841534eab781f85fbf180a8318df90226a9cffa4cb52d86a084ce2480725013fe82e8ef59f3cfe5bb5220b161",
+          "sha256": "a3f45751018842512ca5bd823b6bc4d42a9f66beef5e12fd12d21b1e8568a451",
+          "sha1": "447f7241c8e6bcadc7554d0708584b2bf38ecf8a",
+          "md5": "aad29f493368c2bbff7c0ca5d3e3f302"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-integration-tests-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "data-plane-integration-tests-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 261,
+          "sha512": "2cc3ed53add9efddbbb5f136cbbf7204c611cc1841534eab781f85fbf180a8318df90226a9cffa4cb52d86a084ce2480725013fe82e8ef59f3cfe5bb5220b161",
+          "sha256": "a3f45751018842512ca5bd823b6bc4d42a9f66beef5e12fd12d21b1e8568a451",
+          "sha1": "447f7241c8e6bcadc7554d0708584b2bf38ecf8a",
+          "md5": "aad29f493368c2bbff7c0ca5d3e3f302"
+        }
+      ]
+    }
+  ]
+}

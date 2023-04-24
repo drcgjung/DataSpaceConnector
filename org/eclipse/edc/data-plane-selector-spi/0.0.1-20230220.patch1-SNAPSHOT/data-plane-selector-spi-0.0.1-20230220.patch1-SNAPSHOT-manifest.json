@@ -1,0 +1,1 @@
+[{"categories":[""],"extensions":[],"extensionPoints":[{"service":"org.eclipse.edc.connector.dataplane.selector.spi.DataPlaneSelectorService"},{"service":"org.eclipse.edc.connector.dataplane.selector.spi.client.DataPlaneSelectorClient"}],"modulePath":"org.eclipse.edc:data-plane-selector-spi","version":"0.0.1-20230220.patch1-SNAPSHOT","name":"DataPlane selector services"}]

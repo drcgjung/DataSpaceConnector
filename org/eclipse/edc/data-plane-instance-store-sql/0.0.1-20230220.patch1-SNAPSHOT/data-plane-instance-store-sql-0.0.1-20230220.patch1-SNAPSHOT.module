@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.eclipse.edc",
+    "module": "data-plane-instance-store-sql",
+    "version": "0.0.1-20230220.patch1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-selector-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-instance-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-instance-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 24327,
+          "sha512": "cc5473f95c0200f9b423d403a2122dd914d59a08d0d1873f2ed131b9f4b622a66a37d31b013c2bbcd348540c6b4592160a0f496d8c04453a045c990b2b9f69b5",
+          "sha256": "e6f9054a1df309412c0c5f11b901ad22365897fc692cb56befd7a4e62ded89bc",
+          "sha1": "a7f11db37a8abe0da20c3de3363e1548dae27973",
+          "md5": "cdf8b2c7142b30c52538b17f15a52ba1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-datasource-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "sql-core",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "transaction-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "data-plane-selector-spi",
+          "version": {
+            "requires": "0.0.1-20230220.patch1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.eclipse.edc",
+          "module": "runtime-metamodel",
+          "version": {
+            "requires": "0.0.1-20230220-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-plane-instance-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "url": "data-plane-instance-store-sql-0.0.1-20230220.patch1-SNAPSHOT.jar",
+          "size": 24327,
+          "sha512": "cc5473f95c0200f9b423d403a2122dd914d59a08d0d1873f2ed131b9f4b622a66a37d31b013c2bbcd348540c6b4592160a0f496d8c04453a045c990b2b9f69b5",
+          "sha256": "e6f9054a1df309412c0c5f11b901ad22365897fc692cb56befd7a4e62ded89bc",
+          "sha1": "a7f11db37a8abe0da20c3de3363e1548dae27973",
+          "md5": "cdf8b2c7142b30c52538b17f15a52ba1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-instance-store-sql-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "url": "data-plane-instance-store-sql-0.0.1-20230220.patch1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "7f8dd31c0810a338c7e0c5544cfab21458ca58a778cc301acaea74b9e3811dda7f53b2e8e9361fb81f237a95aeea6e1fc74378477b51f53a929b281d360cb9f1",
+          "sha256": "672db9ff51675a7e217f7e508965d4feb35d1637f023fb09c5014bac403cc9e9",
+          "sha1": "8effa78b1e0f2a19623b0980363b3a8a2d471e41",
+          "md5": "3f1a93f245d3460f08a0a6a6dede6242"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-plane-instance-store-sql-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "url": "data-plane-instance-store-sql-0.0.1-20230220.patch1-SNAPSHOT-sources.jar",
+          "size": 7359,
+          "sha512": "715a9c7c51a801311ebc02c441ae5d8b4ce643b0a29a27102954d524c3d57440b055e7aa10b56e3bdfd1949a567af3ea18ff2503e6f19485983e6e15819ca9d8",
+          "sha256": "5bdfc99dc35fccaf89d9f2d685f643983896fc2bf4b8ab649d8e3b954c15c6a5",
+          "sha1": "6b0e774fb062170de05dd3e86360adb03a40660c",
+          "md5": "4a23dd71da9e9db2f62fa888b9d1649c"
+        }
+      ]
+    }
+  ]
+}
